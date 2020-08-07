@@ -22,3 +22,6 @@ return array;
 // shuffle the cards array
 shuffleCards = shuffle(Cards);
 console.log(Cards)
+
+//function to show start screen
+$('.container').append('<div class="start_screen"><p>A pattern matching game to help language students become familiar with the appearance of Chinese pictogram characters. </p><ul><li>Click on any card to reveal a pictogram</li></ul></div>,');
