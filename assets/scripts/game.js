@@ -24,4 +24,4 @@ shuffleCards = shuffle(Cards);
 console.log(Cards)
 
 //function to show start screen
-$('.container').append('<div class="start_screen"><p>A pattern matching game to help language students become familiar with the appearance of Chinese pictogram characters. </p><ul><li>Click on any card to reveal a pictogram</li></ul></div>,');
+$('.container').append('<div class="start_screen"><p>A pattern matching game to help language students become familiar with the appearance of Chinese pictogram characters. </p><ul><li>Click on any card to reveal a pictogram, remember it</li><li>Click on another card to see if is is a match</li><li>Repeat the process until you have matched all the pictograms</li><li>The moves counter tells you how well you remembered them</li><li>Less than 20 moves is awesome, less than 30 good, more than 30, practice more!</li><li>Click the start button to begin playing, you can restart at any time</li></ul></div>');
