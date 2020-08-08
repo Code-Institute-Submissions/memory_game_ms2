@@ -40,9 +40,13 @@ $( "#start" ).click(function() {
    for (var i = 0;i < Cards.length;i++) {
    $('.card').eq(i).find('i').addClass(shuffleCards[i]);
    }
+   $('.deck').append('<div><button type="submit" class="btn btn-primary fa fa-repeat" onClick="refreshPage()"></button></div>')
  });
 
 // Click event to restart the game
-$('.restart').click(function(){
+$('#restart').click(function(){
 location.reload();
 });
+function refreshPage(){
+    window.location.reload();
+}
