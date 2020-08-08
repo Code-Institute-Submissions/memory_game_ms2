@@ -30,7 +30,7 @@ $('.container').append('<div class="start_screen"><h3>A pattern matching game to
 $('.start').click(function(){
 location.load();
 });
-$( "#start" ).click(function() {
+$( "#start, #restart" ).click(function() {
   $( ".container " ).replaceWith('<ul class="deck"></ul>');
    for (var i = 0;i < Cards.length;i++) {
    $('.deck').prepend('<li class="card"></li>');
@@ -40,7 +40,7 @@ $( "#start" ).click(function() {
    for (var i = 0;i < Cards.length;i++) {
    $('.card').eq(i).find('i').addClass(shuffleCards[i]);
    }
-   $('.deck').append('<div><button type="submit" class="btn btn-primary fa fa-repeat" onClick="refreshPage()"></button></div>')
+   $('.deck').append('<div><span class="moves"> 0 </span><button type="submit" class="btn btn-primary fa fa-repeat" id="restart" ></button><button type="submit" class="btn btn-primary fa fa-repeat" id="restart" onClick="refreshPage()"></button></div>')
  });
 
 // Click event to restart the game
