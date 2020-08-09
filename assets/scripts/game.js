@@ -24,7 +24,7 @@ shuffleCards = shuffle(Cards);
 console.log(Cards)
 
 //function to show start screen
-$('.container').append('<div class="start_screen"><h3>A pattern matching game to help language students become familiar with Chinese pictograms. </h3><ul><li>Click on any card to reveal a pictogram, remember it</li><li>Click on another card to see if is is a match</li><li>Repeat the process until you have matched all the pictograms</li><li>The moves counter tells you how well you remembered them</li><li>Less than 20 moves is awesome, less than 30 good, more than 30, practice more!</li><li>Click the start button to begin playing, you can restart at any time</li></ul><div><button class="btn btn-primary" id="start" type="start">Start</button> </div>');
+$('.container').append('<div class="start_screen"><h3>A pattern matching game to help language students become familiar with Chinese pictograms. </h3><ul><li>Click on any card to reveal a pictogram, remember it</li><li>Click on another card to see if is is a match</li><li>Repeat the process until you have matched all the pictograms</li><li>The moves counter tells you how well you have remembered them</li><li>Less than 20 moves is awesome, less than 30 good, more than 30? PRACTICE MORE!</li><li>Click the  <i class="fas fa-chevron-right"></i> button to begin playing, you can restart <i class="fas fa-chevron-left"></i> or refresh <i class="fas fa-repeat"></i> at any time</li></ul><div><button class="btn btn-primary fas fa-chevron-right" id="start" type="start"></button> </div>');
 
 // Click event to start the game
 $('.start').click(function(){
@@ -40,7 +40,7 @@ $( "#start, #restart" ).click(function() {
    for (var i = 0;i < Cards.length;i++) {
    $('.card').eq(i).find('i').addClass(shuffleCards[i]);
    }
-   $('.deck').append('<div><span class="moves"> 0 </span><button type="submit" class="btn btn-primary fa fa-repeat" id="restart" ></button><button type="submit" class="btn btn-primary fa fa-repeat" id="restart" onClick="refreshPage()"></button></div>')
+   $('.deck').append('<div></button><button type="submit" class="btn btn-primary fa fa-chevron-left" id="restart" onClick="refreshPage()"></button>Moves<span class="moves"> 0 </span><button type="submit" class="btn btn-primary fas fa-repeat" id="restart" ></div>')
  });
 
 // Click event to restart the game
