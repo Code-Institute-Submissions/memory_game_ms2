@@ -19,6 +19,7 @@ array[randomIndex] = temporaryValue;
 }
 return array;
 }
+
 // shuffle the cards array
 shuffleCards = shuffle(Cards);
 console.log(Cards)
@@ -31,6 +32,7 @@ $('.container').append('<div class="start_screen"><h3>A pattern matching game to
 //location.load();
 //});
 
+
 $( "#start, #refresh" ).click(function() {
   $( ".start_screen" ).replaceWith('<ul class="deck"></ul>');
    for (var i = 0;i < Cards.length;i++) {
@@ -41,13 +43,13 @@ $( "#start, #refresh" ).click(function() {
    for (var i = 0;i < Cards.length;i++) {
    $('.card').eq(i).find('i').addClass(shuffleCards[i]);
    }
-   $('.deck').append('<div><button type="submit" class="btn btn-primary fa fa-chevron-left" id="restart" onClick="refreshPage()"></button>Moves<span class="moves"> 0 </span><button type="submit" class="btn btn-primary fas fa-repeat" id="refresh" ></button></div>')
+   $('.deck').append('<div><button type="submit" class="btn btn-primary fa fa-chevron-left" id="restart" onClick="refreshPage()"></button>Moves<span class="moves"> 0 </span><button type="submit" class="btn btn-primary fas fa-repeat" type="start" id="refresh" ></button></div>')
  });
 
-// Click event to restart the game - unnecessary? - to test
-$('#restart').click(function(){
-location.reload();
-});
+// Click event to restart the game - unnecessary - to test
+//$('#restart').click(function(){
+//location.reload();
+//});
 
 function refreshPage(){
     window.location.reload();
