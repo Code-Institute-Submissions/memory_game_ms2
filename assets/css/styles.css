@@ -146,3 +146,41 @@ h1 {
     background: #02ccba;
     font-size: 33px;
 }
+
+*Style for the popup modal*/
+
+.modal {
+    display: none;
+    top : 0;
+    right : 0;
+    bottom : 0;
+    left : 0;
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    max-width: 360px;
+    padding : 40px;
+    margin: 5em auto;
+    border-radius: 10px;
+    background-color: cyan;
+
+}
+
+.modal-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 400;
+}
+
+.modal-elements {
+    display: inline-block;
+    align-items: center;
+}
+
+.modal-message {
+    font-size: 2em;
+    text-align: center;
+}
