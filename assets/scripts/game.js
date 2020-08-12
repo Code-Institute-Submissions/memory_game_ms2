@@ -1,7 +1,7 @@
 // List of all cards by character
 var Cards = ["百","千","万","上","中","下","左","右","大","小","百","千","万","上","中","下","左","右","大","小"];
 // An empty array where values of open cards are pushed to compare.
-var OpenCards= [];
+var openCards= [];
 // Variables defined to track number of moves
 var flipped=0;
 var numOfmoves=0;
@@ -19,7 +19,7 @@ var numOfmoves=0;
 		return array;
 	}
 
-// Shuffle the card array
+// Define var array to contain result and to shuffle the card array
 var shuffled = shuffle(Cards);
 
 
@@ -57,7 +57,7 @@ function toggleMatch(){
 // Function to remove open class from unmatched cards
 function flipBack () {
 	$('.card').filter($('.open')).toggleClass('open');
-	OpenCards = [];
+	openCards = [];
 	numOfmoves=numOfmoves+1;
 	$('.moves').text(numOfmoves);
 }
@@ -65,7 +65,7 @@ function flipBack () {
 function flipMatched () {
 	$('.card').filter($('.match')).toggleClass('match');
 	$('.card').filter($('.open')).toggleClass('open');
-	OpenCards = [];
+	openCards = [];
 }
 // Click event to refresh game without return to start_screen
 function refreshGame(){
@@ -85,22 +85,23 @@ function refreshGame(){
 // Event listener for flipping the cards when clicked on
 $('.container').on('click','.card',function (event) {
 		/*Essential condition for flipping a card i.e. a card may be flipped only if class='card' is present this is always true and only one other card is open.*/
-		if ($(this).attr('class')==='card' && OpenCards.length<2){
-		/*CLass name of a open card is pushed to opencards array when only one card is opened.*/
-			if (OpenCards.length===0)
+		if ($(this).attr('class')==='card' && openCards.length<2){
+		/*CLass name open added to clicked card and class (symbol) of open card is pushed to openCards array when one card is opened.*/
+			if (openCards.length===0)
 			{
 				$(this).toggleClass('open');
-				OpenCards.push($(this).children().attr('class'));
+				openCards.push($(this).children().attr('class'));
 			}
-			else if (OpenCards.length===1)
+      // Class name of second opened card is toggled and class (symbol) pushed to openCards array
+			else if (openCards.length===1)
 			{
 				$(this).toggleClass('open');
-				OpenCards.push($(this).children().attr('class'));
-				/* Comparison of two open cards-If matched */
-				if (OpenCards[0]=== OpenCards[1])
+				openCards.push($(this).children().attr('class'));
+				/* Comparison of two open cards-If matched they toggle class match */
+				if (openCards[0]=== openCards[1])
 				{
 					toggleMatch();
-					OpenCards= [];
+					openCards= [];
 				}
 				else
 				{
@@ -110,9 +111,9 @@ $('.container').on('click','.card',function (event) {
 		}
 		// After all tiles are matched show modal
 		if (flipped === Cards.length) {
-      alert("Congratulations");
-	//		$('.modal').css('display','block');
-      $('.modal').append('<div" class="modal"><div class="modal-content"> <h2 class="modal-title">Congratulations !</h2><p class="modal-message">You won !</p><div class="modal-element"><span>Moves :</span></div><button class="btn btn-primary fas fa-close" type="start" id="close_modal" onClick="closeModal()"></button></div></div>');
+//      alert("Congratulations");
+			$('.modal').css('display','block');
+      $('#modal').append('<div" class="modal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"> <div class="modal-header>"<h3 class="modal-title">Congratulations !</h2> <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button><div class= "modal-body>"<p class="modal-message">You won !</p></div><div class="modal-element"><span>Moves :</span></div><div class="modal-footer"><button class="btn btn-primary fas fa-close" type="start" id="close_modal" onClick="closeModal()"></button></div></div></div></div></div>');
 
 		}
 		}
