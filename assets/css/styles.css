@@ -33,7 +33,7 @@ h1 {
 .start_screen {
     width: 320px;
     min-height: 580px;
-    background: #afd275;
+    background: #faa194;
     padding: 32px;
     border-radius: 10px;
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
@@ -47,7 +47,7 @@ h1 {
 .deck {
     width: 320px;
     min-height: 580px;
-    background: #afd275;
+    background: #faa194;
     padding: 32px;
     border-radius: 10px;
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
@@ -61,15 +61,19 @@ h1 {
 .deck .card {
     height: 80px;
     width: 60px;
-    background: #2e3d49;
+/*    background: #2e3d49;*/
     font-size: 0;
-    color: #ffffff;
+  /*  color: #ffffff;*/
     border-radius: 8px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.card {
+  color: #f6dccb;
 }
 
 /*possible way to insert pictograms */
@@ -161,7 +165,10 @@ h1 {
     left : 0;
     position: fixed;
     background-color: rgba(0,0,0,0.6);
-    display: block;
+/*    display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-content {
@@ -170,7 +177,14 @@ h1 {
     margin: 5em auto;
     border-radius: 10px;
     background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.modal-header {
+  padding: 0;
+  align-self: end;
 }
 
 .modal-title {
@@ -180,7 +194,7 @@ h1 {
     font-weight: 400;
 }
 
-.modal-elements {
+.modal-elements .modal-image {
     display: inline-block;
     align-items: center;
 }
@@ -188,4 +202,14 @@ h1 {
 .modal-message {
     font-size: 2em;
     text-align: center;
+}
+
+.close_modal_btn {
+/*  float: right;*/
+}
+
+.modal-footer {
+/*  flex-direction: column;
+  align-content: flex-end; */
+  align-items: end;
 }
