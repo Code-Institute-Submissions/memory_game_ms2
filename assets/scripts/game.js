@@ -53,7 +53,17 @@ function toggleMatch(){
 	flipped=flipped + 2;
 	numOfmoves=numOfmoves+1;
 	$('.moves').text(numOfmoves);
+   $('.container').prepend('<div class="congrat"></div>');
+   $('.congrat').append('<div class="modal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"> <div class="modal-header>"<h2 class="modal-title">Congratulations !</h2> <button class="btn btn-primary fas fa-times-circle" type="start" id="close_modal" onClick="closeModal()"></button><div class= "modal-body>"<p class="modal-message">You won !</p></div><div class="modal-element"><span class="moves"> 0 </span></div><div class="modal-footer"><button class="btn btn-primary far fa-window-close" type="start" id="close_modal" onClick="closeModal()"></button></div></div></div></div></div>');
+
 }
+// Function to close modal
+function closeModal () {
+$(".congrat").remove();
+
+
+}
+
 // Function to remove open class from unmatched cards
 function flipBack () {
 	$('.card').filter($('.open')).toggleClass('open');
@@ -112,9 +122,11 @@ $('.container').on('click','.card',function (event) {
 		// After all tiles are matched show modal
 		if (flipped === Cards.length) {
 //      alert("Congratulations");
-			$('.modal').css('display','block');
-      $('#modal').append('<div" class="modal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"> <div class="modal-header>"<h3 class="modal-title">Congratulations !</h2> <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button><div class= "modal-body>"<p class="modal-message">You won !</p></div><div class="modal-element"><span>Moves :</span></div><div class="modal-footer"><button class="btn btn-primary fas fa-close" type="start" id="close_modal" onClick="closeModal()"></button></div></div></div></div></div>');
+//			$('.modal').css('display','block');
+//      $('#modal').append('<div" class="modal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"> <div class="modal-header>"<h3 class="modal-title">Congratulations !</h2> <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button><div class= "modal-body>"<p class="modal-message">You won !</p></div><div class="modal-element"><span>Moves :</span></div><div class="modal-footer"><button class="btn btn-primary fas fa-close" type="start" id="close_modal" onClick="closeModal()"></button></div></div></div></div></div>');
+  //    var html_to_insert = "<p>New paragraph</p>";
 
+//      getElementById('modal').insertAdjacentHTML('beforeend', html_to_insert);
 		}
 		}
 });
