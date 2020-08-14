@@ -248,7 +248,5 @@ h1 {
 }
 
 .modal-footer {
-/*  flex-direction: column;
-  align-content: flex-end; */
   align-items: end;
 }
