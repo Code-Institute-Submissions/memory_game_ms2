@@ -153,8 +153,9 @@ h1 {
     font-size: 33px;
 }
 /* styling for game_panel*/
-.game_panel {
-    display:flex;
+.game_panel, .landing_panel {
+    display:inline-flex;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -162,17 +163,29 @@ h1 {
   background: #76f44b;
 }
 
+#moves_label {
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #6c757d;
+}
+
+#start {
+  margin-bottom: 0;
+  margin-left: 90%;
+  margin-right: 0%;
+  position: relative;
+}
+
 #restart {
-margin-bottom: 0;
-margin-left: 0%;
-margin-right: 41%;
+  margin-bottom: 0;
+  margin-left: 0%;
   position:relative;
 }
 
 #reset {
-margin-bottom: 0;
-margin-left: 41%;
-margin-right: 0%;
+  margin-bottom: 0;
+  margin-right: 0%;
   position:relative;
 }
 
@@ -208,8 +221,9 @@ margin-right: 0%;
 }
 
 .modal-header {
-  padding: 0;
-  align-self: end;
+    display: inline-flex;
+    width: 100%;
+    padding: 0;
 }
 
 .modal-title {
@@ -230,7 +244,7 @@ margin-right: 0%;
 }
 
 .close_modal_btn {
-/*  float: right;*/
+  margin-left: 90%;
 }
 
 .modal-footer {
