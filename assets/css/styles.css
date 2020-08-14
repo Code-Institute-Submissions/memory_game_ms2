@@ -152,8 +152,31 @@ h1 {
     background: #d9d9d9;
     font-size: 33px;
 }
+/* styling for game_panel*/
+.game_panel {
+    display:flex;
+    justify-content: space-between;
+}
 
-*Style for the popup modal*/
+.btn-secondary {
+  background: #76f44b;
+}
+
+#restart {
+margin-bottom: 0;
+margin-left: 0%;
+margin-right: 41%;
+  position:relative;
+}
+
+#reset {
+margin-bottom: 0;
+margin-left: 41%;
+margin-right: 0%;
+  position:relative;
+}
+
+/*Style for the popup modal*/
 
 #congrat {
   display: block;
@@ -214,8 +237,4 @@ h1 {
 /*  flex-direction: column;
   align-content: flex-end; */
   align-items: end;
-}
-
-.btn-secondary {
-  background: #76f44b;
 }

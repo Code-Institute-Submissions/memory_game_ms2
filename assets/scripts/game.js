@@ -39,7 +39,7 @@ var shuffled = shuffle(Cards);
 			for (var i = 0;i < Cards.length;i++) {
 			$('.card').eq(i).find('i').addClass(shuffled[i]);
 			}
-			$('.deck').append('<div><button type="submit" class="btn btn-secondary fa fa-arrow-up" id="restart" onClick="refreshPage()"></button>Moves: <span class="moves"> 0 </span><button class="btn btn-secondary fas fa-redo" type="start" id="reset" onClick="refreshGame()"></button></div>')
+			$('.deck').append('<div class="game_panel"><button type="submit" class="btn btn-secondary fa fa-arrow-up" id="restart" onClick="refreshPage()"></button>Moves: <span class="moves"> 0 </span><button class="btn btn-secondary fas fa-redo" type="start" id="reset" onClick="refreshGame()"></button></div>')
 			});
 
 // Click event to restart the game
