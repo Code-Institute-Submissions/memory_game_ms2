@@ -24,6 +24,7 @@ body {
 }
 
 h1 {
+    display: block;
     font-family: 'NC Sans', sans-serif;
     font-weight: 300;
     text-align: center;
@@ -250,3 +251,43 @@ h1 {
 .modal-footer {
   align-items: end;
 }
+
+
+
+
+/*media queries */
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+.container {
+    margin-top: 0rem;
+    }
+  }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+.container {
+    margin-top: 1.5rem;
+    }
+.header_name {
+    display: none;
+    }
+  }
+
+/*
+@include media-breakpoint-down(md) {
+.container {
+  margin-top: 1.5rem;
+  }
+}
+//Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
