@@ -34,7 +34,6 @@ h1 {
 .start_screen {
     width: 320px;
     min-height: 580px;
-/*    background: #faa194;*/
     background: #51d0de;
     padding: 32px;
     border-radius: 10px;
@@ -49,7 +48,6 @@ h1 {
 .deck {
     width: 320px;
     min-height: 580px;
-/*    background: #faa194;*/
     background: #51d0de;
     padding: 32px;
     border-radius: 10px;
@@ -66,7 +64,6 @@ h1 {
     width: 60px;
     font-size: 0;
     background: #bf4aa8;
-  /*  color: #ffffff;*/
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -204,14 +201,17 @@ h1 {
     left : 0;
     position: fixed;
     background-color: rgba(0,0,0,0.6);
-/*    display: block; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/*.modal-dialogue {
+    width: 100%;
+    }*/
+
 .modal-content {
-    max-width: 360px;
+    max-width: 500px; /*was 360px*/
     padding : 40px;
     margin: 5em auto;
     border-radius: 10px;
@@ -257,12 +257,41 @@ h1 {
 
 /*media queries */
 
-Large devices (desktops, 992px and up)
+/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 .container {
     margin-top: 0rem;
     }
+
+.start_screen {
+  width: 740px;
+  min-height: 940px
   }
+
+h4 {
+  font-size: 48px;
+}
+
+.start_text {
+  font-size: 30px
+}
+
+.deck {
+    width: 740px;
+    min-height: 940px
+  }
+
+.deck .card {
+    height: 180px;
+    width: 120px;
+  }
+.deck .card.open, .deck .card.match {
+    font-size: 60px;
+  }
+.modal-footer {
+  font-size: 25px;
+  }
+}
 
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991px) {
@@ -272,7 +301,7 @@ Large devices (desktops, 992px and up)
 .header_name {
     display: none;
     }
-  }
+}
 
 /*
 @include media-breakpoint-down(md) {
