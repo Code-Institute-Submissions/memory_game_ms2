@@ -285,9 +285,14 @@ h4 {
     height: 180px;
     width: 120px;
   }
+
 .deck .card.open, .deck .card.match {
     font-size: 60px;
   }
+.game_panel, .landing_panel {
+      font-size: 28px;
+    }
+
 .modal-footer {
   font-size: 25px;
   }

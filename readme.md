@@ -23,23 +23,17 @@ The project wireframes were produced using figma and are provided
       Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup
 3. [Bootstrap (4.3.1)](https://getbootstrap.com/docs/4.3/getting-started/download/)
       Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development - provides new functions and can be accessed via CDN rather than using a library
-4. [JavaScript](https://getbootstrap.com/docs/4.3/getting-started/download/)
-
-5. [JQuery (4.3.1)](https://getbootstrap.com/docs/4.3/getting-started/download/)
-
+4. [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript)
+      JavaScript is a light-weight, interpreted, object-oriented programming language used primarily for making interactive elements on web pages and applications. It was initially only used for browsers and web pages, but it has spread to many other environments and applications. See also [Puralsight](https://www.pluralsight.com/courses/quick-start-javascript-1-1870?aid=7010a000002BZNLAA4).
+5. [JQuery (3.5.1)](https://blog.jquery.com/2020/05/04/jquery-3-5-1-released-fixing-a-regression/)
+      [jQuery](https://jquery.com/) is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 
 
 ## Features
 
 Features present:
 
-  -  Speech bubble title on the 'Landing page' provides a visual connection to the image used as background working together to indicate the purpose of the Café - consistent responsive appearance uses a media query
-  -  Parallax scrolling of sections to provide a contemporary and professional feel whilst allowing simple navigation to all parts of the site. Scrolling is effected by use of the CSS Smooth-scroll attribute
-  -  The navbar stays collapsed regardless of the screen size to promote a minimalist design
-  -  Learning material video and audio elements can be played directly on the page without browsing away
-  -  A pure CSS and HTML5 crossword is provided as part of the learning materials illustrating use of CSS Grid layout
-  -  A [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) quiz is presented as a modal allowing completion without navigation away from the page
-  -  A simple contact form is provided coupled with a warning modal informing users about the status of data collection and privacy
+
 
 ### Features Left to Implement
 
@@ -49,8 +43,10 @@ The
 
 ### Test protocols
 
+Jasmine test:
+  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned.
 
-
+User test  
   Start_screen:
   1.  On landing verify start_screen container is visible
   2.  Verify text is visible
@@ -75,97 +71,26 @@ The
   14. Continue clicking until all cards are paired verify this loads 'Congratulations' modal
 
   Modal:
-  1.  Check modal is all in frame, overlays deck, focused and contains 'close'btn at top right, 'Congratulations!' and 'you won!' text as well as 'fortune god' image and correct move number
+  1.  Check modal is all in frame, overlays deck, focused and contains 'close' btn at top right, 'Congratulations!' and 'you won!' text as well as 'fortune god' image and correct move number
   2.  Hover over 'close' btn' and verify response
   3.  Click on 'close' btn' and verify modal closes returning to game deck.
-  
 
-About:
 
-1.  Go to the "About" section
-2.  Verify speech bubbles are hidden/visible as appropriate for device
-3.  Scroll down and check whether parallax scroll behaviour is present
-
-Learn:
-
-1.  Go to the "Learn" section
-2.  Hover over card and verify response
-3.  Click on media play/pause, if present, verify content play's pauses successfully
-4.  Hover over link icons and verify response.
-5.  Click icon and verify appropriate response
-6.  Scroll down and check whether parallax scroll behaviour is present or not
-
-Learn cards:
-
-  1.  Go to the "Learn" section
-  2.  Hover over card and verify response
-  3.  Click on media play/pause, if present, verify content play's pauses successfully
-  4.  Hover over link icons and verify response.
-  5.  Click icon and verify appropriate response
-
-  Quiz modal:
-
-    1.  Go to the "Learn" section
-    2.  Click quiz '?' icon and verify modal opens - check all sections present
-    3.  Click answer verify response occurs
-    4.  Click check-answer button verify response occurs
-    5.  Click next question verify response occurs
-    6.  Continue until end of quiz click to verify result
-    7.  Click close button verify that quiz modal closes
-    8.  Reopen quiz modal
-    9.  Click close 'x' verify that quiz modal closes
-
-  Crossword:
-
-    1.  Go to the "Learn" section
-    2.  Click on 'pencil' icon and verify crossword opens in new window - check grid and clues present
-    3.  Click on letter square and verify change to yellow
-    4.  Enter letter verify appropriate response occurs
-    5.  Enter complete word check that colour changes for whole word
-    6.  Click 'check for validity' verify correct colour change occurs
-    7.  Complete crossword verify response
-
-Support cards:
-
-  1.  Go to the "Support" section
-  2.  Hover over card and verify response
-  3.  Click on media play/pause, if present, verify content play's pauses successfully
-  4.  Hover over link icons and verify response.
-  5.  Click icon and verify appropriate response
-
-Contact form:
-
-  1.  Go to the "Contact Us" section
-  2.  Try to submit the empty form and verify that an error message about the required fields appears
-  3.  Try to submit the form with an invalid email address and verify that a relevant error message appears
-  4.  Try to submit the form with all inputs valid and verify that a success message appears
-  5.  Press send and verify that contact form modal opens
-  6.  Check that pressing close button closes modal
-
-Footer buttons
-
-  1.  Scroll to "Footer"
-  2.  hover over icon check it responds by changing colours
-  3.  click on icon and verify that it opens appropriate link
 
 ### Test Findings
-The landing page has a similar look and simple feel whatever screen size is used, incorporating the long word 'Conversation' comfortably is achieved by use of alternative speech bubbles with different heading sizes determined by a media query.
 
-By clicking on the navbar the links allow navigation to other Language indexes or page sections regardless of the order they are listed or being used.
-
-Media are embedded in the site and can be played directly by pressing a play button (Soundcloud) or by right clicking on the video. This minimises the need to open other windows on a mobile device and means that learners can receive the full experience without navigating away. It is also possible to open each media in a new tab by clicking on the desktop icon. The quiz for the 'Half a million secrets' is executed as a modal and can be completed without leaving the Café site. Song lyrics are provided as links to pdf files and will download to your default folder for downloads on click using the 'download' attribute. The crossword is executed from a separate index and stylesheet to allow inclusion of new material it opens in a new tab when clicked. All links have been manually tested to ensure that they are pointing to the correct destination.
-
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhones 5,6-8,X;  iPad and iPad-pro, Chrome and Safari; pixel2+pixel2XL, Galaxy S9, One+5, Macbook, Asus and Jumper laptops; Chrome/Safari/Firefox) to ensure compatibility and responsiveness. A range of other devices were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/)
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhones 5,6-8,X;  iPad and iPad-pro, Chrome and Safari; pixel2+pixel2XL, Galaxy S9, One+5, Macbook, Asus and Jumper laptops; Chrome/Safari/Firefox) to ensure compatibility and responsiveness. A range of other devices were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/).
 As a result of these tests:
- - I found there was no video play option using Chrome this was fixed by specifically introducing 'control'  and  then restyling the video position by adjusting padding.
-
- - I found that Learn/Support cards sat to the right on iPhone6/7/8/X on both Chrome &/Firefox simulations
- - I also found that cards were slightly to right on pixel2XL in Chrome simulations.
- - To correct these issues I removed an 80%container width media query previously applying.
- - Further adjustments to styling were made to adjust positioning on small devices
-
- - I also improved card alignment on iphone XL with a solution from [here]
- (https://stackoverflow.com/questions/6072154/html-css-wrapper-is-not-center-aligned-in-iphone-safari)
+ - I found game 'restart'&'refresh' buttons and the close_modal_btn were incorrectly positioned in Chrome, it was solved using fix at https://stackoverflow.com/questions/30540750/displayflex-not-working-in-chrome
+```
+.class {
+    display: inline-flex;
+    width: 100%;
+}
+```
+ -
+ -
+ -
 
 Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design;
 
