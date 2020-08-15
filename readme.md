@@ -62,10 +62,22 @@ All of the above features are present in this game.
 
 ## Testing
 
+### Mentor recommendations
+
+At the mid-project mentor meeting a number of problems were identified and I'm grateful to Ignatious for his assistance and experience in identifying them. These included
+
+- bootstrap source errors - fixed by using script as source for bootstrap .js
+- script tag outside HTML body - script tag moved to bottom of body
+- missing html closing tag - tag replaced
+- possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
+- poor visual experience when viewing game on 4k monitor - set up media queries to make better use of large and extre large screen size
+- poor placement of script src in header instead of bottom of HTML body - script link updated and moved
+
+
 ### Test protocols
 
 Jasmine test:
-  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned.
+  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned as well as additional tests, I am grateful to my mentor for this suggestion.
 
 User test  
   Start_screen:
@@ -97,7 +109,6 @@ User test
   3.  Click on 'close' btn' and verify modal closes returning to game deck.
 
 
-
 ### Test Findings
 
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhones 5,6-8,X;  iPad and iPad-pro, Chrome and Safari; pixel2+pixel2XL, Galaxy S9, One+5, Macbook, Asus and Jumper laptops; Chrome/Safari/Firefox) to ensure compatibility and responsiveness. A range of other devices were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/).
@@ -114,6 +125,7 @@ As a result of these tests:
  -
 
 Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design;
+
 
 ### Peer Review
 
@@ -140,7 +152,7 @@ The fortune god .png was taken from a collection of free to use clipart for desi
 
 ### Acknowledgements
 
- - The inspiration .
+ - The inspiration for the game format came from that of [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html), but that to expand the game and to use Chinese pictograms comes from my own needs as a language student and teacher.
  - .
  - .
  - The.
