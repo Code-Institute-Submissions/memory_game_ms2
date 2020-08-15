@@ -12,7 +12,17 @@ The project wireframes were produced using figma and are provided
   +  [Macbook]()
 
 ## UX
-
+Game users want a fun way to learn to recognise Chinese pictogram characters.  The game is intended to be fun and a vibrant colour theme and an element of humour in the modal image reflect this.
+* The user lands on a screen explaining  the game's purpose, displaying instructions on game play and how to navigate the game using consistent and readily recognised icons (FA).
+The user then clicks the single button located at bottom right marked with a recognised forward symbol (right chevron) to progress to the game deck.
+* This game presents as 20 blank cards behind which hidden are ten pairs of randomly arranged Chinese pictograms (a number that represent a suitable subset of characters to learn to distinguish at one time - pictograms chosen from a Google font library that represents approx 250 of the most commonly used modern Chinese characters).
+* The game screen presents a 5*4  grid of empty cards providing a satisfying visual experience on  a mobile phone screen as (this is expected to be the main route of access/play - a responsive option to use alternative grids on larger devices such as desktops will be provided).  
+When a first card is clicked the card flips to reveal a pictogram (the font chosen is one that is easy to recognise - similar to that used on Chinese metro signage). This card stays face up until the next action occurs.
+* When the user clicks on the next card it also flips to face up, if they make a pair the cards remain open as matched (a change in background colour reflects this), if not matched both cards flip back to hide their pictograms. The move counter at the page foot increments.
+* Game play continues in the same manner until all cards are matched, at this point a modal screen displays presenting a congratulations message and displaying a smiling image of the Chinese God of Fortune. The modal also displays the moves count for the game. The modal can be closed by clicking a button at top right.
+* A single display of moves made (rather than time taken) at the game foot and on the modal provides both the visually simplest and most representative marker of game performance.
+* At any time in play the card deck and counter can be reset by clicking a right-hand 'refresh' button (using a commonly recognised 'redo' icon) or the user can return to the instruction screen by use of the left-hand 'restart' button (up arrow icon).
+* All game buttons show colour change responses on hover or click. Buttons are coloured to coordinate with the game theme. Buttons and the move panel change size responsively with device.
 
 
 ## Technologies
