@@ -17,7 +17,7 @@ Game users want a fun way to learn to recognise Chinese pictogram characters.  T
 The user then clicks the single button located at bottom right marked with a recognised forward symbol (right chevron) to progress to the game deck.
 * This game presents as 20 blank cards behind which are ten pairs of randomly arranged Chinese pictograms (a number that represent a suitable subset of characters to learn to distinguish at one time - pictograms were chosen from a Google font library that represents approx 250 of the most commonly used modern Chinese characters).
 * The game screen presents a 5*4  grid of empty cards providing a satisfying visual experience on  a mobile phone screen as (this is expected to be the main route of access/play - a responsive option to use alternative grids on larger devices such as desktops will be provided).  
-When a first card is clicked the card flips to reveal a pictogram (the font chosen [Noto Sans SC](https://fonts.google.com/specimen/Noto+Sans+SC?subset=chinese-simplified) is one that is easy to recognise - similar to that used on Chinese metro signage). This card stays face up until the next action occurs.
+* When a first card is clicked the card flips to reveal a pictogram (the font chosen [Noto Sans SC](https://fonts.google.com/specimen/Noto+Sans+SC?subset=chinese-simplified) is one that is easy to recognise - similar to that used on Chinese metro signage). This card stays face up until the next action occurs.
 * When the user clicks on the next card it also flips to face up, if they make a pair the cards remain open as matched (a change in background colour reflects this), if not matched both cards flip back to hide their pictograms. The move counter at the page foot increments.
 * Game play continues in the same manner until all cards are matched, at this point a modal screen displays presenting a congratulations message and displaying a smiling image of the Chinese God of Fortune. The modal also displays the moves count for the game. The modal can be closed by clicking a button at top right.
 * A single display of moves made (rather than time taken) at the game foot and on the modal provides both the visually simplest and most representative marker of game performance.
@@ -144,7 +144,7 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-All styling and content in the start_screen, deck and modal sections of the game were designed and written by me. A model game structure and specific components such as the 'shuffle' function were taken/adapted from other pattern matching games available online from [Sandra Israel-Ovirih](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) & [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html) however as well as rewriting and rewriting substantial additional JS/jQuery code and additional CSS I also substantially altered the HTML index file to provide the functionality seen in this game version.
+All styling and content in the start_screen, deck and modal sections of the game were designed and written by me. A model game structure and specific components such as the 'shuffle' function were taken/adapted from other pattern matching games available online from [Sandra Israel-Ovirih](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) & [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html) however as well as rewriting and writing substantial additional JS/jQuery code and additional CSS I also significantly altered the HTML index file to provide the functionality seen in this game version.
 
 #### Additional resources consulted
 
@@ -162,7 +162,7 @@ The fortune god .png was taken from a collection of free to use clipart for desi
 
  - The inspiration for the game format came from that of [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html), choice to expand the game to use a larger grid and to use Chinese pictograms comes from my own needs as a language student and teacher.
 
- - .Color choices were inspired by a website design [Lightning Blue Purple – Simple Web Color Palette](https://hookagency.com/website-color-schemes/) but modified by reference to complementary colours in images found [at](https://encycolorpedia.com/baaf9d) identified using an [eyedropper tool](https://imagecolorpicker.com/en/).
+ - Color choices were inspired by a website design [Lightning Blue Purple – Simple Web Color Palette](https://hookagency.com/website-color-schemes/) but modified by reference to complementary colours in images found [at](https://encycolorpedia.com/baaf9d) identified using an [eyedropper tool](https://imagecolorpicker.com/en/).
 
  - I am very grateful to my mentor [Ignatius Ukwuoma](ignatiusukwuoma@gmail.com) for his guidance and commitment in helping me to achieve something realistic but satisfying within severe constraints on time.
 
@@ -178,5 +178,3 @@ To make a more challenging and valuable learning resource I would propose the fo
 
 
 **This is for educational use.**
-
-> Written with [StackEdit](https://stackedit.io/).
