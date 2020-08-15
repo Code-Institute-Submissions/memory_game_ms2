@@ -41,11 +41,23 @@ When a first card is clicked the card flips to reveal a pictogram (the font chos
 
 ## Features
 
-Features present:
+### Required
+* Define a set of cards to be matched
+* Cards are to be shuffled on load or restart/reset
+* Cards possess hidden, open or matched states
+* Cards begin game in hidden state
+* A card changes to open state on being clicked
+* Game should know how to handle matched and unmatched cards
+* Game should return unmatched card pairs to hidden state
+* Game should display the current number of moves a user has made    
+* A restart button should allow the player reset the game board.
+* A start screen should introduce the game purpose and instructions for play
+* Buttons should allow navigation between screens
+* A congratulations modal should appear when the player matches all cards. The modal can be closed.
 
+### Present:
+All of the above features are present in this game.
 
-
-### Features Left to Implement
 
 
 ## Testing
