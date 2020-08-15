@@ -8,8 +8,8 @@ This is a responsive mobile-first pattern matching game to assist beginner stude
 ## Wireframes
 
 The project wireframes were produced using [figma](https://www.figma.com/) and are provided here:
-  +  [Mobile](assets\images\Chinese character memory game wireframe mobile phone.png)
-  +  [Macbook](assets\images\Chinese character memory game macbook.png)
+  +  [Mobile](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png)
+  +  [Macbook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20macbook.png)
 
 ## UX
 Game users want a fun way to learn to recognise Chinese pictogram characters.  The game is intended to be fun and is reflected by use of a vibrant colour theme and an element of humour in the modal image.
