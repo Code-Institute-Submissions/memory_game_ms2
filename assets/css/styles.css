@@ -276,6 +276,11 @@ h4 {
   font-size: 30px
 }
 
+#start {
+  height: 42px;
+  width: 40px;
+}
+
 .deck {
     width: 740px;
     min-height: 940px

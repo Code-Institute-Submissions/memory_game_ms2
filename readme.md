@@ -120,7 +120,8 @@ Further iterative testing using these sites revealed other styling issues resolv
 
 
 ### Outstanding issues:
- - the Chinese characters used in the game do not display as authentically on Chrome as they do on Firefox - this needs to be addressed as it can affect the ease of their recognition.
+ - the Chinese characters used in the game do not display as clearly on Chrome as they do on Firefox - this needs to be addressed as it can affect the ease of their recognition.
+ - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is too small for a satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
 
 
 ## Deployment
@@ -132,10 +133,10 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-All styling and content in the start_screen, deck and modal sections of the game were designed and written by me. The overall structure of the game and specific components such as the 'shuffle' function were copied from other pattern matching games available online at .
+All styling and content in the start_screen, deck and modal sections of the game were designed and written by me. A model game structure and specific components such as the 'shuffle' function were taken/adapted from other pattern matching games available online from [Sandra Israel-Ovirih](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) & [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html) however substantial additional JS/jQuery code and additional HTML/CSS were required to provide the functionality seen in this game version.
 
 ### Media
-The fortune god .png was taken from a collection of free to use graphics at
+The fortune god .png was taken from a collection of free to use clipart for designers at [PNGGuru](https://www.pngguru.com/).
 
 ### Acknowledgements
 
