@@ -7,9 +7,9 @@ This is a responsive mobile-first pattern matching game to assist beginner stude
 
 ## Wireframes
 
-The project wireframes were produced using figma and are provided
-  +  [Mobile]()
-  +  [Macbook]()
+The project wireframes were produced using [figma](https://www.figma.com/) and are provided here:
+  +  [Mobile](assets\images\Chinese character memory game wireframe mobile phone.png)
+  +  [Macbook](assets\images\Chinese character memory game macbook.png)
 
 ## UX
 Game users want a fun way to learn to recognise Chinese pictogram characters.  The game is intended to be fun and is reflected by use of a vibrant colour theme and an element of humour in the modal image.
@@ -59,12 +59,13 @@ When a first card is clicked the card flips to reveal a pictogram (the font chos
 All of the above features are present in this game.
 
 
-
 ## Testing
 
 ### Mentor recommendations
 
-At the mid-project mentor meeting a number of problems were identified and I'm grateful to Ignatious for his assistance and experience in identifying them. These included
+At the project inception meeting questions posed by Ignatius Ukwuoma made me realize that a complete set of game play instructions should to be added to the start_screen - these were added.
+
+At the mid-project mentor meeting a number of problems were identified and I'm grateful to Ignatius for his assistance and experience in identifying them. These included
 
 - bootstrap source errors - fixed by using script as source for bootstrap .js
 - script tag outside HTML body - script tag moved to bottom of body
@@ -77,7 +78,7 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 ### Test protocols
 
 Jasmine test:
-  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned as well as additional tests, I am grateful to my mentor for this suggestion.
+  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned as well as additional tests, I am grateful to my mentor for this suggestion. The jasmine test also checked that the returned array contained an appropriate pictogram character and that it did not include an inappropriate character.
 
 User test  
   Start_screen:
@@ -120,9 +121,7 @@ As a result of these tests:
     width: 100%;
 }
 ```
- -
- -
- -
+- From these tests I found further styling was necessary for the start button to make it consistent with the deck buttons on larger devices.
 
 Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design;
 
@@ -132,7 +131,7 @@ Further iterative testing using these sites revealed other styling issues resolv
 
 
 ### Outstanding issues:
- - the Chinese characters used in the game do not display as clearly on Chrome as they do on Firefox - this needs to be addressed as it can affect the ease of their recognition.
+ - the Chinese characters used in the game do not display as attractively on Chrome as they do on Firefox - this needs to be addressed as it can affect the ease of their recognition.
  - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is too small for a satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
 
 
@@ -145,24 +144,33 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-All styling and content in the start_screen, deck and modal sections of the game were designed and written by me. A model game structure and specific components such as the 'shuffle' function were taken/adapted from other pattern matching games available online from [Sandra Israel-Ovirih](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) & [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html) however substantial additional JS/jQuery code and additional HTML/CSS were required to provide the functionality seen in this game version.
+All styling and content in the start_screen, deck and modal sections of the game were designed and written by me. A model game structure and specific components such as the 'shuffle' function were taken/adapted from other pattern matching games available online from [Sandra Israel-Ovirih](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) & [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html) however as well as rewriting and rewriting substantial additional JS/jQuery code and additional CSS I also substantially altered the HTML index file to provide the functionality seen in this game version.
+
+#### Additional resources consulted
+
+* [how to specify html content in stylesheets](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Generated_content) - (nb content is outside the DOM)
+* [how to work with box shadows](https://css-tricks.com/neumorphism-and-css/)
+* [manipulating DOM elements](https://www.peachpit.com/articles/article.aspx?p=2010420)
+* [alignment with flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
+* [refresh function](https://stackoverflow.com/questions/29884654/button-that-refreshes-the-page-on-click/50324264#50324264)
+
 
 ### Media
 The fortune god .png was taken from a collection of free to use clipart for designers at [PNGGuru](https://www.pngguru.com/).
 
 ### Acknowledgements
 
- - The inspiration for the game format came from that of [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html), but that to expand the game and to use Chinese pictograms comes from my own needs as a language student and teacher.
- - .
- - .
- - The.
- - The at
-   []()
- - I am very grateful to my mentor Ignatious []() for his guidance and commitment in helping me to achieve something realistic but satisfying within the very short time available.
+ - The inspiration for the game format came from that of [Chinmay](//https://code.sololearn.com/W5R8YeqZv5tC/#html), choice to expand the game to use a larger grid and to use Chinese pictograms comes from my own needs as a language student and teacher.
+
+ - .Color choices were inspired by a website design [Lightning Blue Purple – Simple Web Color Palette](https://hookagency.com/website-color-schemes/) but modified by reference to complementary colours in images found [at](https://encycolorpedia.com/baaf9d) identified using an [eyedropper tool](https://imagecolorpicker.com/en/).
+
+ - I am very grateful to my mentor [Ignatius Ukwuoma](ignatiusukwuoma@gmail.com) for his guidance and commitment in helping me to achieve something realistic but satisfying within severe constraints on time.
 
 ## Future Versions
 
-
+To make a more challenging and valuable learning resource I would propose the following future developments:
+* Addition of functionality to select 10 pictograms from an array of 250 common Chinese characters either as consecutive groups or as a random selection as chosen by the user.  v1.0
+* Addition of audio files to pronounce name of each pictogram when cards are matched. v2.0
 
 
 ## On Reflection
