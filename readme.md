@@ -14,7 +14,7 @@ The project wireframes were produced using [figma](https://www.figma.com/) and a
 
   +  [Macbook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20macbook.png)
 
-  <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20macbook.png" alt="Pictomatch macbook wireframe screen" style="max-width:50%;">
+  <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20macbook.png" alt="Pictomatch macbook wireframe screen" style="max-width:50%;">
 
 ## Design choices
 
