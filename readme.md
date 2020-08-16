@@ -73,6 +73,9 @@ The user then clicks the single button located at bottom right marked with a rec
 ### Present:
 All of the above features are present in this game.
 
++ [landing-screen iPad Pro](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_start.png)
+
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
 ## Testing
 
@@ -86,8 +89,8 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 - script tag outside HTML body - script tag moved to bottom of body
 - missing html closing tag - tag replaced
 - possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
-- poor visual experience when viewing game on 4k monitor - set up media queries to make better use of large and extre large screen size
-- poor placement of script src in header instead of bottom of HTML body - script link updated and moved
+- poor visual experience when viewing game on 4k monitor - set up media queries to make better use of large and extra large screen size
+- poor placement of script 'src' in header instead of bottom of HTML body - script link updated and moved
 
 
 ### Test protocols
@@ -124,7 +127,11 @@ User test
   2.  Hover over 'close' btn' and verify response
   3.  Click on 'close' btn' and verify modal closes returning to game deck.
 
-A shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up some testing processes. This is included and can be accessed by using [quick_index]() and it's cognate [quick_game] script. 
+A shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up some testing processes. This is included and can be accessed by using [quick_index]() and it's cognate [quick_game] script.
+
++ [Galaxy S9](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\Galaxy_s9.png)
+
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
 ### Test Findings
 
@@ -141,14 +148,23 @@ As a result of these tests:
 
 Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design;
 
++ [Galaxy S9](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_lndscp.png)
+
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
 ### Peer Review
 
++ [Galaxy S9](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\Galaxy_s9.png)
 
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
 ### Outstanding issues:
  - the Chinese characters used in the game do not display as attractively on Chrome as they do on Firefox - this needs to be addressed as it can affect the ease of their recognition.
  - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is too small for a satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
+
+ + [iPadPro modal](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_congrats.png)
+
+ <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
 
 ## Deployment
@@ -225,7 +241,7 @@ All styling and content in the start_screen, deck and modal sections of the game
 * [alignment with flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 * [refresh function](https://stackoverflow.com/questions/29884654/button-that-refreshes-the-page-on-click/50324264#50324264)
 * [using spy in Jasmine without an object](https://stackoverflow.com/questions/9510148/using-jasmine-to-spy-on-a-function-without-an-object)
-
+* [sample readme](https://github.com/AJGreaves/familyhub/blob/master/README.md#heroku-deployment)
 
 ### Media
 The fortune god .png image was taken from a collection of free to use clipart for designers at [PNGGuru](https://www.pngguru.com/).
