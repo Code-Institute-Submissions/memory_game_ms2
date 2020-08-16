@@ -14,7 +14,9 @@ The project wireframes were produced using [figma](https://www.figma.com/) and a
 ## Design choices
 
 This game is primarily designed for mobile use and was designed with a mobile first approach - beginning with design for a small device then adding responsiveness for other device sizes.
-An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-design-anti-trends-9e73fb9e2da9) 'anti-design' look but I realised during development that this provided an insufficient range of options for elements with multiple states such as the game cards. I then chose a vibrant colour palette to reflect the fun nature of the game. I determined to keep the game panel as simple and uncluttered as possible and have maintained this by use of simple buttons and icons and a minimal move counter display sharing a common colour theme. 
+An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-design-anti-trends-9e73fb9e2da9) 'anti-design' look (reflected in the wireframes provided) but I realised during development that this provided an insufficient range of options for elements with multiple states such as the game cards. I then chose a vibrant colour palette to reflect the fun nature of the game. I determined to keep the game panel as simple and uncluttered as possible and have maintained this by use of simple matched buttons and readily recognized icons with a minimal move-counter display sharing a common colour theme.
+
++ [Palette] ()
 
 ## UX
 Game users want a fun way to learn to recognise Chinese pictogram characters.  As game is intended to be fun this is reflected by use of a vibrant colour theme and an element of humour in the modal image.
