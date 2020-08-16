@@ -11,8 +11,13 @@ The project wireframes were produced using [figma](https://www.figma.com/) and a
   +  [Mobile](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png)
   +  [Macbook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20macbook.png)
 
+## Design choices
+
+This game is primarily designed for mobile use and was designed with a mobile first approach - beginning with design for a small device then adding responsiveness for other device sizes.
+An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-design-anti-trends-9e73fb9e2da9) 'anti-design' look but I realised during development that this provided an insufficient range of options for elements with multiple states such as the game cards. I then chose a vibrant colour palette to reflect the fun nature of the game. I determined to keep the game panel as simple and uncluttered as possible and have maintained this by use of simple buttons and icons and a minimal move counter display sharing a common colour theme. 
+
 ## UX
-Game users want a fun way to learn to recognise Chinese pictogram characters.  The game is intended to be fun and is reflected by use of a vibrant colour theme and an element of humour in the modal image.
+Game users want a fun way to learn to recognise Chinese pictogram characters.  As game is intended to be fun this is reflected by use of a vibrant colour theme and an element of humour in the modal image.
 * The user lands on a screen explaining  the game's purpose, displaying instructions on game play and how to navigate the game.
 The user then clicks the single button located at bottom right marked with a recognised forward symbol (right chevron) to progress to the game deck.
 * This game presents as 20 blank cards behind which are ten pairs of randomly arranged Chinese pictograms (a number that represent a suitable subset of characters to learn to distinguish at one time - pictograms were chosen from a Google font library that represents approx 250 of the most commonly used modern Chinese characters).
@@ -37,6 +42,7 @@ The user then clicks the single button located at bottom right marked with a rec
       JavaScript is a light-weight, interpreted, object-oriented programming language used primarily for making interactive elements on web pages and applications. It was initially only used for browsers and web pages, but it has spread to many other environments and applications. See also [Puralsight](https://www.pluralsight.com/courses/quick-start-javascript-1-1870?aid=7010a000002BZNLAA4).
 5. [JQuery (3.5.1)](https://blog.jquery.com/2020/05/04/jquery-3-5-1-released-fixing-a-regression/)
       [jQuery](https://jquery.com/) is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+6. [FontAwesome](https://fontawesome.com/) provides an extensive library of free to use icons giving additional visual cues and enhancing UX.
 
 
 ## Features
@@ -136,9 +142,64 @@ Further iterative testing using these sites revealed other styling issues resolv
 
 
 ## Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
+This site is hosted using [GitHub pages](https://singeroi.github.io/memory_game_ms2/), deployed directly from the master branch.
+Deployment followed the steps outlined by [Github configuring a publishing source](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+- To configure the publishing source, I confirmed the branch and files to use as publishing source existed in the repository
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone [https://singeroi.github.io/memory_game_ms2/](https://singeroi.github.io/memory_game_ms2/)` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+    - On GitHub, I navigated to the site's repository [Chinese memory game](https://github.com/SingeRoi/memory_game_ms2)
+
+    - Under this repository name, I clicked  
+
+        Settings
+        Repository settings button
+
+    - Under "GitHub Pages", I used the None or Branch drop-down menu to select the publishing source
+
+        Using the drop-down menu I selected the Main branch as the publishing source
+
+The deployed site updates automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page is named `index.html`.
+
+To run/edit this code locally, you can clone this repository directly by following the instructions given at [Github cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). I use Github Desktop so would follow the instrucions provided to
+
+- Clone a repository to GitHub Desktop
+
+    - On GitHub, navigate to the main page of the repository.
+
+    - Above the list of files, click
+
+        Code.
+
+        Click 'Open with GitHub Desktop' to clone and open the repository with GitHub Desktop.
+
+        Follow the prompts in GitHub Desktop to complete the clone.
+
+    - further information is available at [GitHub clone using GitHub Desktop](https://docs.github.com/en/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop)
+
+Alternatively you can clone a repository using the [command line](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line)
+
+    - On GitHub, navigate to the main page of the repository.
+
+    - Above the list of files, click
+
+        Code
+
+        To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon
+        To clone the repository using an SSH key click "Use SSH", then click the clipboard icon
+
+        Open Git Bash
+
+        Change the current working directory to the location where you want the cloned directory to be placed.
+
+        Type git clone, and then paste the URL you copied earlier.
+        `$ git clone [https://github.com/SingeRoi/memory_game_ms2](https://github.com/SingeRoi/memory_game_ms2)`
+
+        ie ''$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY'
+
+        Press Enter to create your local clone.
+
+      See [Github](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line) for more information and support.
+
+To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 
 ## Credits
@@ -156,7 +217,7 @@ All styling and content in the start_screen, deck and modal sections of the game
 
 
 ### Media
-The fortune god .png was taken from a collection of free to use clipart for designers at [PNGGuru](https://www.pngguru.com/).
+The fortune god .png image was taken from a collection of free to use clipart for designers at [PNGGuru](https://www.pngguru.com/).
 
 ### Acknowledgements
 
