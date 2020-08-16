@@ -11,6 +11,8 @@ The project wireframes were produced using [figma](https://www.figma.com/) and a
   +  [Mobile](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png)
   +  [Macbook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20macbook.png)
 
+  <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png" alt="Pictomatch mobile wireframe screen" data-canonical-src="" style="max-width:100%;">
+
 ## Design choices
 
 This game is primarily designed for mobile use and was designed with a mobile first approach - beginning with design for a small device then adding responsiveness for other device sizes.
@@ -86,7 +88,7 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 ### Test protocols
 
 Jasmine test:
-  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned as well as additional tests, I am grateful to my mentor for this suggestion. The jasmine test also checked that the returned array contained an appropriate pictogram character and that it did not include an inappropriate character.
+  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned as well as additional tests, I am grateful to my mentor for this suggestion. The jasmine test also checked that the returned array contained an appropriate pictogram character, that it did not include an inappropriate character and that the function was called.
 
 User test  
   Start_screen:
@@ -216,6 +218,7 @@ All styling and content in the start_screen, deck and modal sections of the game
 * [manipulating DOM elements](https://www.peachpit.com/articles/article.aspx?p=2010420)
 * [alignment with flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 * [refresh function](https://stackoverflow.com/questions/29884654/button-that-refreshes-the-page-on-click/50324264#50324264)
+* [using spy in Jasmine without an object](https://stackoverflow.com/questions/9510148/using-jasmine-to-spy-on-a-function-without-an-object)
 
 
 ### Media
@@ -231,8 +234,8 @@ The fortune god .png image was taken from a collection of free to use clipart fo
 
 ## Future Versions
 
-To make a more challenging and valuable learning resource I would propose the following future developments:
-* Addition of functionality to select 10 pictograms from an array of 250 common Chinese characters either as consecutive groups or as a random selection as chosen by the user.  v1.0
+To provide a more challenging and valuable learning resource I would propose the following future developments:
+* Addition of functionality to select 10 pictograms from an array of 250 common Chinese characters either as consecutive groups or as a random selection depending on the option chosen by the user.  v1.0
 * Addition of audio files to pronounce name of each pictogram when cards are matched. v2.0
 
 

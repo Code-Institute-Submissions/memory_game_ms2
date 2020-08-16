@@ -256,6 +256,53 @@ h1 {
 
 
 /*media queries */
+/*Extralarge devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .container, {
+        margin-top: 0rem;
+        }
+
+    .start_screen {
+      width: 1340px;
+      min-height: 640px
+      }
+
+    h4 {
+      font-size: 48px;
+    }
+
+    .start_text {
+      font-size: 30px
+    }
+
+    #start {
+      height: 42px;
+      width: 40px;
+    }
+
+    .deck {
+      width: 1340px;
+      min-height: 640px
+      }
+
+    .deck .card {
+        height: 180px;
+        width: 120px;
+      }
+
+    .deck .card.open, .deck .card.match {
+        font-size: 60px;
+      }
+    .game_panel, .landing_panel {
+          font-size: 28px;
+        }
+
+    .modal-footer {
+      font-size: 25px;
+      }
+  }
+}
+
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
