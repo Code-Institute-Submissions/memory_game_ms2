@@ -96,6 +96,9 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 - possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
 - poor visual experience when viewing game on a large desktop monitor - set up media queries to make better use of large and extra large screen sizes and to make full use of landscape display
 
++ [OnePlus7 matched cards Firefox](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_all.jpg)     compared with   [OnePlus7 matched cards Chrome](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Chrome%20deck_matched_all.jpg)
+
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png" alt="OnePlus7 matched cards Firefox" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Chrome%20deck_matched_all.jpg" alt="OnePlus7 matched cards Chrome" style="max-width:30%;">
 
 ### Test protocols
 
@@ -131,11 +134,11 @@ User test
   2.  Hover over 'close' btn' and verify response
   3.  Click on 'close' btn' and verify modal closes returning to game deck.
 
-A shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up some testing processes. This is included and can be accessed by using [quick_index]() and it's cognate [quick_game] script.
+A shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up some testing processes. This is included and can be accessed by using [quick_index](https://github.com/SingeRoi/memory_game_ms2/blob/master/quick_index.html) and it's cognate [quick_game](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/scripts/quick_game.js) script.
 
-+ [iPhone5](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPhone5 start_screen.png)
++ [iPhone5](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png )
 
-<img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPhone5 start_screen.png" alt="iPhone5 start_screen" style="max-width:30%;"><img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPhone5 deck_matched_unmatched_2.png" alt="iPhone5 deck_matched_unmatched" style="max-width:30%;"><img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPhone5 modal.png
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20start_screen.png" alt="iPhone5 start_screen" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20modal.png
 " alt="iPhone5 modal" style="max-width:30%;">
 
 ### Test Findings
@@ -169,7 +172,7 @@ As a result of these tests:
 
  - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is too small for a satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
 
- + [iPadPro modal landscape](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_congrats.png)
+ + [iPadPro modal landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png)
 
  <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="Pictomatch colour palette bariPadPro congratulations modal" style="max-width:100%;">
 
@@ -250,9 +253,9 @@ All styling and content in the start_screen, deck and modal sections of the game
 * [using spy in Jasmine without an object](https://stackoverflow.com/questions/9510148/using-jasmine-to-spy-on-a-function-without-an-object)
 * [sample readme](https://github.com/AJGreaves/familyhub/blob/master/README.md#heroku-deployment)
 
-+ [MacBook](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\MacBook modal.png)
++ [MacBook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/MacBook%20modal.png)
 
-<img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\MacBook modal.png" alt="MAcBook modal" style="max-width:60%;">
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/MacBook%20modal.png" style="max-width:60%;">
 
 ### Media
 The fortune god .png image was taken from a collection of free to use clipart for designers at [PNGGuru](https://www.pngguru.com/).
