@@ -73,9 +73,10 @@ The user then clicks the single button located at bottom right marked with a rec
 ### Present:
 All of the above features are present in this game.
 
-+ [landing-screen iPad Pro](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_start.png)
 
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
++ [iPadPro start_screen landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_start.png)
+
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_start.png" alt="iPadPro start_screen landscape" style="max-width:60%;">
 
 ## Testing
 
@@ -129,9 +130,7 @@ User test
 
 A shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up some testing processes. This is included and can be accessed by using [quick_index]() and it's cognate [quick_game] script.
 
-+ [Galaxy S9](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\Galaxy_s9.png)
 
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
 ### Test Findings
 
@@ -148,13 +147,10 @@ As a result of these tests:
 
 Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design;
 
-+ [Galaxy S9](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_lndscp.png)
-
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
 ### Peer Review
 
-+ [Galaxy S9](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png) [iPadPro](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
++ [Galaxy S9](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png)     compared with   [iPadPro](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
 
 <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png" alt="Galaxy S9 deck" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro deck" style="max-width:60%;">
 
