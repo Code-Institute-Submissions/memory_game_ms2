@@ -25,6 +25,8 @@ An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-d
 
 <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
+A decision was made early on to provide a game title as a header only on larger devices so as not to lose screen area on mobile devices.
+
 ## UX
 Game users want a fun way to learn to recognise Chinese pictogram characters.  As game is intended to be fun this is reflected by use of a vibrant colour theme and an element of humour in the modal image.
 * The user lands on a screen explaining  the game's purpose, displaying instructions on game play and how to navigate the game.
@@ -50,8 +52,9 @@ The user then clicks the single button located at bottom right marked with a rec
 4. [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript)
       JavaScript is a light-weight, interpreted, object-oriented programming language used primarily for making interactive elements on web pages and applications. It was initially only used for browsers and web pages, but it has spread to many other environments and applications. See also [Pluralsight](https://www.pluralsight.com/courses/quick-start-javascript-1-1870?aid=7010a000002BZNLAA4).
 5. [JQuery (3.5.1)](https://blog.jquery.com/2020/05/04/jquery-3-5-1-released-fixing-a-regression/)
-      [jQuery](https://jquery.com/) is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
-6. [FontAwesome](https://fontawesome.com/) provides an extensive library of free to use icons giving additional visual cues and enhancing UX.
+      [jQuery](https://jquery.com/) is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript. It provides easy solutions to manipulate the DOM.
+  6. [FontAwesome](https://fontawesome.com/)
+      Provides an extensive library of free to use icons giving additional visual cues and enhancing UX.
 
 
 ## Features
@@ -82,7 +85,7 @@ All of the above features are present in this game.
 
 ### Mentor recommendations
 
-At the project inception meeting questions posed by Ignatius Ukwuoma made me realize that a complete set of game play instructions should to be added to the start_screen - these were added.
+At the project inception meeting questions posed by my mentor, Ignatius Ukwuoma, made me realize that a complete set of game play instructions should to be added to the start_screen - these were added.
 
 At the mid-project mentor meeting a number of problems were identified and I'm grateful to Ignatius for his assistance and experience in identifying them. These included
 
@@ -134,7 +137,7 @@ A shortened game form in which the congratulations modal launches on matching a 
 
 ### Test Findings
 
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhones 5,6-8,X;  iPad and iPad-pro, Chrome and Safari; pixel2+pixel2XL, Galaxy S9, One+5, Macbook, Asus and Jumper laptops; Chrome/Safari/Firefox) to ensure compatibility and responsiveness. A range of other devices were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/).
+This site was tested across multipleplus browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 5, OnePlus5 and OnePlus7  iPadMini and iPad-pro, Chrome/Firefox/Safari; Macbook, Asus and Jumper laptops; Chrome/Safari/Firefox) to ensure compatibility and responsiveness. A range of other devices including  pixel2+pixel2XL, Galaxy S9, Nexus 4, iPhoneX and various desktop display sizes were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/).
 As a result of these tests:
  - I found game 'restart'&'refresh' buttons and the close_modal_btn were incorrectly positioned in Chrome, it was solved using fix at https://stackoverflow.com/questions/30540750/displayflex-not-working-in-chrome
 ```
@@ -145,7 +148,11 @@ As a result of these tests:
 ```
 - From these tests I found further styling was necessary for the start button to make it consistent with the deck buttons on larger devices.
 
-Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design;
+- The game generally performs well on even the smallest mobile devices tested iPhone5 and remains attractive and easy to use on more modern phones with larger displays. 
+
+- Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design especially to produce a more satisfying landscape display on larger devices.
+
+- on one larger device (Asus R541U laptop) the Chinese characters used in the game do not display as attractively in Chrome as they do on Firefox - this is not seen on other devices.
 
 
 ### Peer Review
@@ -155,7 +162,7 @@ Further iterative testing using these sites revealed other styling issues resolv
 <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png" alt="Galaxy S9 deck" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro deck" style="max-width:60%;">
 
 ### Outstanding issues:
- - the Chinese characters used in the game do not display as attractively on Chrome as they do on Firefox - this needs to be addressed as it can affect the ease of their recognition.
+
  - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is too small for a satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
 
  + [iPadPro modal landscape](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_congrats.png)
