@@ -89,12 +89,12 @@ At the project inception meeting questions posed by my mentor, Ignatius Ukwuoma,
 
 At the mid-project mentor meeting a number of problems were identified and I'm grateful to Ignatius for his assistance and experience in identifying them. These included
 
-- bootstrap source errors - fixed by using script as source for bootstrap .js
+- bootstrap source errors - fixed by using script as source for bootstrap.js
 - script tag outside HTML body - script tag moved to bottom of body
 - missing html closing tag - tag replaced
-- possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
-- poor visual experience when viewing game on 4k monitor - set up media queries to make better use of large and extra large screen size
 - poor placement of script 'src' in header instead of bottom of HTML body - script link updated and moved
+- possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
+- poor visual experience when viewing game on a large desktop monitor - set up media queries to make better use of large and extra large screen sizes and to make full use of landscape display
 
 
 ### Test protocols
@@ -133,7 +133,10 @@ User test
 
 A shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up some testing processes. This is included and can be accessed by using [quick_index]() and it's cognate [quick_game] script.
 
++ [iPhone5](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPhone5 start_screen.png)
 
+<img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPhone5 start_screen.png" alt="iPhone5 start_screen" style="max-width:30%;"><img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPhone5 deck_matched_unmatched_2.png" alt="iPhone5 deck_matched_unmatched" style="max-width:30%;"><img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPhone5 modal.png
+" alt="iPhone5 modal" style="max-width:30%;">
 
 ### Test Findings
 
@@ -148,11 +151,12 @@ As a result of these tests:
 ```
 - From these tests I found further styling was necessary for the start button to make it consistent with the deck buttons on larger devices.
 
-- The game generally performs well on even the smallest mobile devices tested iPhone5 and remains attractive and easy to use on more modern phones with larger displays. 
+- The game performs well on even the smallest mobile devices tested, though on the iPhone5 it is necessary to scroll on the start_screen to access the start-btn, it is attractive and easy to use on phones with larger displays.
 
 - Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design especially to produce a more satisfying landscape display on larger devices.
 
 - on one larger device (Asus R541U laptop) the Chinese characters used in the game do not display as attractively in Chrome as they do on Firefox - this is not seen on other devices.
+
 
 
 ### Peer Review
@@ -245,6 +249,10 @@ All styling and content in the start_screen, deck and modal sections of the game
 * [refresh function](https://stackoverflow.com/questions/29884654/button-that-refreshes-the-page-on-click/50324264#50324264)
 * [using spy in Jasmine without an object](https://stackoverflow.com/questions/9510148/using-jasmine-to-spy-on-a-function-without-an-object)
 * [sample readme](https://github.com/AJGreaves/familyhub/blob/master/README.md#heroku-deployment)
+
++ [MacBook](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\MacBook modal.png)
+
+<img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\MacBook modal.png" alt="MAcBook modal" style="max-width:60%;">
 
 ### Media
 The fortune god .png image was taken from a collection of free to use clipart for designers at [PNGGuru](https://www.pngguru.com/).
