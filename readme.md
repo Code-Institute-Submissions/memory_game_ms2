@@ -154,17 +154,17 @@ Further iterative testing using these sites revealed other styling issues resolv
 
 ### Peer Review
 
-+ [Galaxy S9](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\Galaxy_s9.png)
++ [Galaxy S9](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png) [iPadPro](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
 
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png" alt="Galaxy S9 deck" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro deck" style="max-width:60%;">
 
 ### Outstanding issues:
  - the Chinese characters used in the game do not display as attractively on Chrome as they do on Firefox - this needs to be addressed as it can affect the ease of their recognition.
  - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is too small for a satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
 
- + [iPadPro modal](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_congrats.png)
+ + [iPadPro modal landscape](C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\iPadPro_congrats.png)
 
- <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
+ <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="Pictomatch colour palette bariPadPro congratulations modal" style="max-width:100%;">
 
 
 ## Deployment
