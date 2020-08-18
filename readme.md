@@ -38,7 +38,7 @@ The user then clicks the single button located at bottom right marked with a rec
 
 OnePlus7 start screen             |  OnePlus7 play      |      OnePlus7 modal
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20start_screen.jpg)  |  ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_unmatched.png)  | ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20modal.png)
+![OnePlus7 start screen ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20start_screen.jpg)  |  ![OnePlus7 play](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_unmatched.jpg)  | ![OnePlus7 modal](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20modal.jpg)
 
 ## Technologies
 
