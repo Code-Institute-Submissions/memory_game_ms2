@@ -4,7 +4,7 @@ var Cards = ["百", "千", "万", "上", "中", "下", "左", "右", "大", "小
 var openCards = [];
 // Variables defined to track number of moves
 var flipped = 0;
-var numOfmoves = 0;
+var moveCount = 0;
 
 // Function to shuffle an array - uses Fisher-Yates (aka Knuth) Shuffle
 function shuffle(array) {
@@ -51,8 +51,9 @@ function refreshPage() {
 function toggleMatch() {
     $('.card').filter($('.open')).toggleClass('open match');
     flipped = flipped + 2;
-    numOfmoves = numOfmoves + 1;
-    $('.moves').text(numOfmoves);
+  //  moveCount = moveCount + 1;
+    moveCount ++;
+    $('.moves').text(moveCount);
 
 }
 // Function to close modal
@@ -64,8 +65,8 @@ function closeModal() {
 function flipBack() {
     $('.card').filter($('.open')).toggleClass('open');
     openCards = [];
-    numOfmoves = numOfmoves + 1;
-    $('.moves').text(numOfmoves);
+    moveCount ++;
+    $('.moves').text(moveCount);
 }
 // Function to return card classes to initial state
 function flipMatched() {
@@ -84,8 +85,8 @@ function refreshGame() {
     }
     // Resets move counter and display
     flipped = 0;
-    numOfmoves = 0;
-    $('.moves').text(numOfmoves);
+    moveCount = 0;
+    $('.moves').text(moveCount);
 }
 
 // Event listener for flipping the cards when clicked on
@@ -114,7 +115,7 @@ $('.container').on('click', '.card', function(event) {
         if (flipped === Cards.length) {
             $('.container').prepend('<div class="congrat"></div>');
             $('.congrat').append('<div class="modal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"> <div class="modal-header"> <button class="btn btn-outline-primary btn-sm fas fa-times close_modal_btn" type="start" id="close_modal" onClick="closeModal()"></button></div><div class= "modal-body"><div><h3 class="modal-title">Congratulations!</h3></div><p class="modal-message">You won !</p></div><div class="modal-image"><img src="assets/images/pngguru.com-1.png" alt="god of fortune" width="200" height="200"></div><div class="modal-footer"><div class="modal-element"><span class="modal_moves_label"> Moves taken:  </span><span class="moves"> 0 </span></div></div></div></div>');
-            $('.moves').text(numOfmoves);
+            $('.moves').text(moveCount);
 
         }
     }
