@@ -10,7 +10,7 @@ This is a responsive mobile-first pattern matching game to assist beginner stude
 The project wireframes were produced using [figma](https://www.figma.com/) and are provided here:
   +  [Mobile](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png)
 
-  <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png" alt="Pictomatch mobile wireframe screen" style="max-width:50%;">
+  <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png" alt="Pictomatch mobile wireframe screen" style="max-width:30%;">
 
   +  [Macbook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20macbook.png)
 
@@ -138,8 +138,7 @@ A shortened game form in which the congratulations modal launches on matching a 
 
 + [iPhone5](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png )
 
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20start_screen.png" alt="iPhone5 start_screen" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20modal.png
-" alt="iPhone5 modal" style="max-width:30%;">
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20start_screen.png" alt="iPhone5 start_screen" style="max-width:30% important;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20modal.png" alt="iPhone5 modal" style="max-width:30%;">
 
 ### Test Findings
 
