@@ -98,7 +98,7 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 
 + [OnePlus7 matched cards Firefox](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_all.jpg)     compared with   [OnePlus7 matched cards Chrome](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Chrome%20deck_matched_all.jpg)
 
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png" alt="OnePlus7 matched cards Firefox" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Chrome%20deck_matched_all.jpg" alt="OnePlus7 matched cards Chrome" style="max-width:30%;">
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png" alt="OnePlus7 matched cards Firefox" style="max-width:30% !important;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Chrome%20deck_matched_all.jpg" alt="OnePlus7 matched cards Chrome" style="max-width:30% !important;">
 
 ### Test protocols
 
