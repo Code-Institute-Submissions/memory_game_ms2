@@ -36,7 +36,7 @@ The user then clicks the single button located at bottom right marked with a rec
 * At any time in play the card deck and counter can be reset by clicking a right-hand 'refresh' button (using a commonly recognised 'redo' icon) or the user can return to the instruction screen by use of the left-hand 'restart' button (up arrow icon).
 * All game buttons show colour change responses on hover or click. Buttons are coloured to coordinate with the game theme. Buttons and the move panel change size responsively with device.
 
-OnePlus7 start screen             |  OnePlus7 play      |      OnePlus7 modal
+OnePlus7 start screen      |       OnePlus7 play       |      OnePlus7 modal
 :-------------------------:|:-------------------------:|:-------------------------:
 ![OnePlus7 start screen ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20start_screen.jpg)  |  ![OnePlus7 play](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_unmatched.jpg)  | ![OnePlus7 modal](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20modal.jpg)
 
