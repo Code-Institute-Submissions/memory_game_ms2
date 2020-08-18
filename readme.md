@@ -56,9 +56,9 @@ The user then clicks the single button located at bottom right marked with a rec
   6. [FontAwesome](https://fontawesome.com/)
       Provides an extensive library of free to use icons giving additional visual cues and enhancing UX.
 
-      iPhone5 start screen             |  iPhone5 play
-      :-------------------------:|:-------------------------:
-      ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20start_screen.png)  |  ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png)
+      iPhone5 start screen             |  iPhone5 play      |      iPhone5 modal
+      :-------------------------:|:-------------------------:|:-------------------------:
+      ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20start_screen.png)  |  ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png)  | ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20modal.png) 
 
 ## Features
 
@@ -254,6 +254,7 @@ All styling and content in the start_screen, deck and modal sections of the game
 * [refresh function](https://stackoverflow.com/questions/29884654/button-that-refreshes-the-page-on-click/50324264#50324264)
 * [using spy in Jasmine without an object](https://stackoverflow.com/questions/9510148/using-jasmine-to-spy-on-a-function-without-an-object)
 * [sample readme](https://github.com/AJGreaves/familyhub/blob/master/README.md#heroku-deployment)
+* [inserting images into readme (French)](https://www.it-swarm.dev/fr/github/comment-peut-afficher-des-images-cote-cote-dans-un-fichier-github-readme.md/1046926365/)
 
 + [MacBook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/MacBook%20modal.png)
 
