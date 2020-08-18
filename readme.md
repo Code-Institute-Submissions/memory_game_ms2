@@ -8,7 +8,7 @@ This is a responsive mobile-first pattern matching game to assist beginner stude
 ## Wireframes
 
 The project wireframes were produced using [figma](https://www.figma.com/) and are provided here:
-Mobile deck             |  MacBook Deck      
+Mobile Deck            |  MacBook Deck      
 :-------------------------:|:-----------------------------------------------------:
 ![Pictomatch mobile wireframe screen"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png)  | ![Macbook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20macbook.png)
 
@@ -18,11 +18,10 @@ Mobile deck             |  MacBook Deck
 This game is primarily designed for mobile use and was designed with a mobile first approach - beginning with design for a small device then adding responsiveness for other device sizes.
 An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-design-anti-trends-9e73fb9e2da9) 'anti-design' look (reflected in the wireframes provided) but I realised during development that this provided an insufficient range of options for elements with multiple states such as the game cards. I then chose a vibrant colour palette to reflect the fun nature of the game. I determined to keep the game panel as simple and uncluttered as possible and have maintained this by use of simple matched buttons and readily recognized icons with a minimal move-counter display sharing a common colour theme.
 
-+ [Palette](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png)
+![Palette](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png)
 
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20memory%20game%20palette%20bar.png" alt="Pictomatch colour palette bar" style="max-width:100%;">
 
-A decision was made early on to provide a game title as a header only on larger devices so as not to lose screen area on mobile devices.
+A decision was made early on to provide a game title as a header only on larger devices so as not to lose screen area on mobile devices. The initial concept envisaged a single screen game with a modal launched on completion but discussion with mentor Ignatius Ukwuoma led to the realisation that an introductory start screen was also necessary.
 
 ## UX
 Game users want a fun way to learn to recognise Chinese pictogram characters.  As game is intended to be fun this is reflected by use of a vibrant colour theme and an element of humour in the modal image.
@@ -37,6 +36,9 @@ The user then clicks the single button located at bottom right marked with a rec
 * At any time in play the card deck and counter can be reset by clicking a right-hand 'refresh' button (using a commonly recognised 'redo' icon) or the user can return to the instruction screen by use of the left-hand 'restart' button (up arrow icon).
 * All game buttons show colour change responses on hover or click. Buttons are coloured to coordinate with the game theme. Buttons and the move panel change size responsively with device.
 
+OnePlus7 start screen             |  OnePlus7 play      |      OnePlus7 modal
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20start_screen.jpg)  |  ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_unmatched.png)  | ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20modal.png)
 
 ## Technologies
 
