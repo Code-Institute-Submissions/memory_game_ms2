@@ -56,6 +56,9 @@ The user then clicks the single button located at bottom right marked with a rec
   6. [FontAwesome](https://fontawesome.com/)
       Provides an extensive library of free to use icons giving additional visual cues and enhancing UX.
 
+      iPhone5 start screen             |  iPhone5 play
+      :-------------------------:|:-------------------------:
+      ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20start_screen.png)  |  ![](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png)
 
 ## Features
 
