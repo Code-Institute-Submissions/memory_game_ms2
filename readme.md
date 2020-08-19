@@ -23,7 +23,7 @@ An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-d
 
 A decision was made early on to provide a game title as a header only on larger devices so as not to lose screen area on mobile devices. The initial concept envisaged a single screen game with a modal launched on completion but discussion with mentor Ignatius Ukwuoma led to the realisation that an introductory start screen was also necessary.
 
-Mobile actual Deck            |  MacBook actual Deck with modal     
+Galaxy S9 Deck            |  MacBook Deck with modal     
 :-------------------------:|:-----------------------------------------------------:
 ![Pictomatch mobile wireframe screen"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png)  | ![Macbook with modal ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/MacBook%20modal.png)
 
@@ -103,9 +103,12 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 - poor visual experience when viewing game on a large desktop monitor - set up media queries to make better use of large and extra large screen sizes and to make full use of landscape display
 
 + [iPadPro simulated game landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro game deck" style="max-width:30% !important;">
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro game deck" style="max-width:30%;">
+
 + [iPadPro simulated modal landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png)
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="iPadPro modal" style="max-width:30% !important;">
+
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="iPadPro congratulations modal" style="max-width:100%;">
+
 
 ### Test protocols
 
@@ -163,21 +166,21 @@ As a result of these tests:
 
 - on one larger device (Asus R541U laptop) the Chinese characters used in the game do not display as attractively in Chrome as they do on Firefox - this is not seen on other devices.
 
-
-
 ### Peer Review
 
-+ [Galaxy S9](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png)     compared with   [iPadPro](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
+As yet I have no peer review feedback.
 
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png" alt="Galaxy S9 deck" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro deck" style="max-width:60%;">
+OnePlus5 Ecosia Deck            |  iPadMini Safari Deck     
+:-------------------------:|:-----------------------------------------------------:
+![OnePlus5 Ecosia Deck"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus5%20Ecosia_matched_unmatched.png)  | ![iPadMini Safari Deck ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/ipadmini2%20deck_matched_unmatched.jpg)
+<img src="" alt="" style="max-width:30%;">
+
 
 ### Outstanding issues:
 
- - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is too small for a satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
+ - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is small giving a less satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
 
- + [iPadPro modal landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png)
-
- <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="Pictomatch colour palette bariPadPro congratulations modal" style="max-width:100%;">
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png" alt="24in display deck style="max-width:60%;">
 
 
 ## Deployment
