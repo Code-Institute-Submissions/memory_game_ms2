@@ -24,7 +24,7 @@ An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-d
 A decision was made early on to provide a game title as a header only on larger devices so as not to lose screen area on mobile devices. The initial concept envisaged a single screen game with a modal launched on completion but discussion with mentor Ignatius Ukwuoma led to the realisation that an introductory start screen was also necessary.
 
 Galaxy S9 Deck            |  MacBook Deck with modal     
-:-------------------------:|:-----------------------------------------------------:
+:------------------------------:|:------------------------------------------------:
 ![Pictomatch mobile wireframe screen"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png)  | ![Macbook with modal ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/MacBook%20modal.png)
 
 ## UX
@@ -167,7 +167,7 @@ As a result of these tests:
 As yet I have no peer review feedback.
 
 OnePlus5 Ecosia Deck            |  iPadMini Safari Deck     
-:-------------------------:|:-----------------------------------------------------:
+:-----------------:|:-----------------------------------------------------:
 ![OnePlus5 Ecosia Deck"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus5%20Ecosia_matched_unmatched.jpg)  | ![iPadMini Safari Deck ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/ipadmini2%20deck_matched_unmatched.jpg)
 <img src="" alt="" style="max-width:30%;">
 
@@ -175,7 +175,7 @@ OnePlus5 Ecosia Deck            |  iPadMini Safari Deck
 ### Outstanding issues:
 
  - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is small giving a less satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
- 
+
 ![24in Display Simulated](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png)
 
 
