@@ -23,6 +23,10 @@ An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-d
 
 A decision was made early on to provide a game title as a header only on larger devices so as not to lose screen area on mobile devices. The initial concept envisaged a single screen game with a modal launched on completion but discussion with mentor Ignatius Ukwuoma led to the realisation that an introductory start screen was also necessary.
 
+Mobile actual Deck            |  MacBook actual Deck with modal     
+:-------------------------:|:-----------------------------------------------------:
+![Pictomatch mobile wireframe screen"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png)  | ![Macbook with modal ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/MacBook%20modal.png)
+
 ## UX
 Game users want a fun way to learn to recognise Chinese pictogram characters.  As game is intended to be fun this is reflected by use of a vibrant colour theme and an element of humour in the modal image.
 * The user lands on a screen explaining  the game's purpose, displaying instructions on game play and how to navigate the game.
@@ -38,7 +42,7 @@ The user then clicks the single button located at bottom right marked with a rec
 
 OnePlus7 start screen      |       OnePlus7 play       |      OnePlus7 modal
 :-------------------------:|:-------------------------:|:-------------------------:
-![OnePlus7 start screen ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/oneplus7-firefox-start_screen_590.jpg)  |  ![OnePlus7 play](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_unmatched.jpg)  | ![OnePlus7 modal](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20modal.jpg)
+![OnePlus7 start screen ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/oneplus7-firefox-start_screen_590.jpg)  |  ![OnePlus7 play](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_unmatched_new.jpg)  | ![OnePlus7 modal](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20modal.jpg)
 
 ## Technologies
 
@@ -98,9 +102,7 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 - possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
 - poor visual experience when viewing game on a large desktop monitor - set up media queries to make better use of large and extra large screen sizes and to make full use of landscape display
 
-+ [OnePlus7 matched cards Firefox](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Firefox%20deck_matched_all.jpg)     compared with   [OnePlus7 matched cards Chrome](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Chrome%20deck_matched_all.jpg)
-
-<img src="C:\Users\Heureuse TouJou\Documents\Coding\ms2\MS2 Chinese memory game\memory_game\assets\images\OnePlus7 Firefox deck_matched_all.jpg" alt="OnePlus7 matched cards Firefox" style="max-width:30% !important;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus7%20Chrome%20deck_matched_all.jpg" alt="OnePlus7 matched cards Chrome" style="max-width:30% !important;">
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro game deck" style="max-width:30% !important;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="iPadPro modal" style="max-width:30% !important;">
 
 ### Test protocols
 
