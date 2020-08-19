@@ -83,7 +83,7 @@ OnePlus7 start screen      |       OnePlus7 play       |      OnePlus7 modal
 All of the above features are present in this game.
 
 
-+ [iPadPro start_screen landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_start.png)
++ [iPadPro  simulated start_screen landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_start.png)
 
 <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_start.png" alt="iPadPro start_screen landscape" style="max-width:60%;">
 
@@ -102,7 +102,10 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 - possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
 - poor visual experience when viewing game on a large desktop monitor - set up media queries to make better use of large and extra large screen sizes and to make full use of landscape display
 
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro game deck" style="max-width:30% !important;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="iPadPro modal" style="max-width:30% !important;">
++ [iPadPro simulated game landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro game deck" style="max-width:30% !important;">
++ [iPadPro simulated modal landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png)
+<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="iPadPro modal" style="max-width:30% !important;">
 
 ### Test protocols
 
@@ -140,9 +143,6 @@ User test
 
 A shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up some testing processes. This is included and can be accessed by using [quick_index](https://github.com/SingeRoi/memory_game_ms2/blob/master/quick_index.html) and it's cognate [quick_game](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/scripts/quick_game.js) script.
 
-+ [iPhone5](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png )
-
-<img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20start_screen.png" alt="iPhone5 start_screen" style="max-width:30% important;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20deck_matched_unmatched_2.png" style="max-width:30%;"><img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPhone5%20modal.png" alt="iPhone5 modal" style="max-width:30%;">
 
 ### Test Findings
 
