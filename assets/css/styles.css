@@ -254,7 +254,7 @@ h1 {
 /*media queries */
 /*Extralarge devices (desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  .container, {
+  .container {
         margin-top: 0rem;
         }
 
@@ -289,6 +289,7 @@ h1 {
     .deck .card.open, .deck .card.match {
         font-size: 60px;
       }
+
     .game_panel, .landing_panel {
           font-size: 28px;
         }
@@ -296,7 +297,7 @@ h1 {
     .modal-footer {
       font-size: 25px;
       }
-  }
+
 }
 
 
