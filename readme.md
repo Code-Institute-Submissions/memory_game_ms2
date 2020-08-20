@@ -178,7 +178,9 @@ OnePlus5 Ecosia Deck            |  iPadMini Safari Deck
 
 ![24in Display Simulated](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png)
 
-
+## Validation
+  - use of CSS3 in styles.css was validated using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) which identified two minor extraneous punctuation marks, these were removed. Retesting gave a clear result.
+  
 ## Deployment
 This site is hosted using [GitHub pages](https://singeroi.github.io/memory_game_ms2/), deployed directly from the master branch.
 Deployment followed the steps outlined by [Github configuring a publishing source](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
