@@ -300,8 +300,8 @@ h1 {
 }
 
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px ) {
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 1023px) and (min-width: 768px ) {
 /*@media (max-width: 1199px){*/
 .container {
     margin-top: 0rem;
@@ -347,7 +347,7 @@ h4 {
   }
 }
 
-/* Medium devices (tablets, less than 992px)*/
+/* small devices (less than 540px)*/
 @media (max-width: 540px) {
 .container {
     margin-top: 1.5rem;
