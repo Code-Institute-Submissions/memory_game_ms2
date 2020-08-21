@@ -179,6 +179,8 @@ As a result of these tests:
 
 - A console error was noted on Chrome relating to font-awesome fab icons, this class of organisation related icons were not used in the code but in discussion my mentor suggested that their absence could be causing the error. I therefore have included one suitable icon as an icon to accompany the game title - this does add an attractive look to the title but is a pragmatic approach that could raise rights issues for a commercial game/site. Inclusion of this icon appears to have resolved the error.
 
+
++ [Title including fa fab-icon resolves console error, Asus laptop, Firefox](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Asus_laptop_firefox_console.png)
 ![Title including fa fab-icon resolves console error, Asus laptop, Firefox](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Asus_laptop_firefox_console.png)
 
 ### Peer Review
@@ -190,12 +192,14 @@ OnePlus5 Ecosia Deck            |  iPadMini Safari Deck
 ![OnePlus5 Ecosia Deck"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus5%20Ecosia_matched_unmatched.jpg)  | ![iPadMini Safari Deck ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/ipadmini2%20deck_matched_unmatched.jpg)
 <img src="" alt="" style="max-width:30%;">
 
++ [24in Display Simulated](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png)
 ![24in Display Simulated](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png)
 
 ### Outstanding issues:
 
  The size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is relatively small giving a less satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
 
++ [24in Display Simulated with Modal](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/24in%20display%20simulated%20with%20modal.png)
 ![24in Display Simulated with Modal](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/24in%20display%20simulated%20with%20modal.png)
 
 ## Validation
