@@ -100,7 +100,9 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 - missing html closing tag - tag replaced
 - poor placement of script 'src' in header instead of bottom of HTML body - script link updated and moved
 - possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
-- poor visual experience when viewing game on a large desktop monitor - set up media queries to make better use of large and extra large screen sizes and to make full use of landscape display
+- poor visual experience when viewing game on a large desktop monitor - set up media queries to make better use of large and extra large screen sizes and to make full use of landscape display.
+- improvements to my Jasmine test protocol
+- introducing a fa Fab-icon to overcome an fab console error
 
 + [iPadPro simulated game landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
 <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro game deck" style="max-width:30%;">
@@ -109,7 +111,12 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 ### Test protocols
 
 Jasmine test:
-  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned as well as additional tests, I am grateful to my mentor for this suggestion. The jasmine test also checked that the returned array contained an appropriate pictogram character, that it did not include an inappropriate character and that the function was called.
+  The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned as well as additional tests to confirm;
+  - that an expected character was returned
+  - that an inappropriate character was not returned
+  - using a spy to ensure the shuffle function was called
+  All tests were passed.
+  I am grateful to my mentor for suggesting I do this test to refresh my knowledge of Jasmine. It also refreshed my knowledge that, having used jQuery in my code, a link to jQuery was necessary in the test HTML file.
 
 User test  
   Start_screen:
@@ -140,12 +147,12 @@ User test
   2.  Hover over 'close' btn' and verify response
   3.  Click on 'close' btn' and verify modal closes returning to game deck.
 
-For testing purposes a shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up the process. To avoid any potential confusion for users these files have now been removed.
+For testing purposes a shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed the test process. To avoid any potential confusion for users these files have now been removed.
 
 
 ### Test Findings
 
-This site was tested across multiple browsers (Chrome, Safari, Microsoft Edge, FireFox, Ecosia) and on multiple mobile devices (iPhone 5, OnePlus5 and OnePlus7  iPadMini and iPad-pro, Chrome/Firefox/Safari; Macbook, Asus and Jumper laptops; Chrome/Safari/Firefox) to ensure compatibility and responsiveness. A range of other devices including  pixel2+pixel2XL, Galaxy S9, Nexus 4, iPhoneX and various desktop display sizes were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/).
+This site was tested across multiple browsers (Chrome, Safari, Microsoft Edge, FireFox, Ecosia) and on multiple mobile devices (iPhone 5, OnePlus5 and OnePlus7  iPadMini and iPad-pro, Chrome/Firefox/Safari; MacBook Air, Asus and Jumper laptops; Chrome/Safari/Firefox) to ensure compatibility and responsiveness. A range of other devices including  pixel2+pixel2XL, Galaxy S9, Nexus 4, iPhoneX and various desktop display sizes were simulated using [Responsive DesignChecker.](https://responsivedesignchecker.com) and [The Responsinator](https://www.responsinator.com/).
 As a result of these tests:
  - I found game 'restart'&'refresh' buttons and the close_modal_btn were incorrectly positioned in Chrome, it was solved using fix at https://stackoverflow.com/questions/30540750/displayflex-not-working-in-chrome
 ```
