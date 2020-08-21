@@ -3,13 +3,13 @@ html {
 }
 
 *,
-*::before,
-*::after {
+*::after,
+*::before {
     box-sizing: inherit;
 }
 
-html,
-body {
+body,
+html {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -73,68 +73,68 @@ h1 {
 }
 
 .card {
-  background: #bf4aa8;
+    background: #bf4aa8;
 }
 
 /*Insert pictograms */
 .百::before {
-  font-weight: bold;
-  color: black;
-  content: "百";
+    font-weight: bold;
+    color: black;
+    content: "百";
 }
 
 .千::before {
-  font-weight: bold;
-  color: black;
-  content: "千";
+    font-weight: bold;
+    color: black;
+    content: "千";
 }
 
 .万::before {
-  font-weight: bold;
-  color: black;
-  content: "万";
+    font-weight: bold;
+    color: black;
+    content: "万";
 }
 
 .上::before {
-  font-weight: bold;
-  color: black;
-  content: "上";
+    font-weight: bold;
+    color: black;
+    content: "上";
 }
 
 .中::before {
-  font-weight: bold;
-  color: black;
-  content: "中";
+    font-weight: bold;
+    color: black;
+    content: "中";
 }
 
 .下::before {
-  font-weight: bold;
-  color: black;
-  content: "下";
+    font-weight: bold;
+    color: black;
+    content: "下";
 }
 
 .左::before {
-  font-weight: bold;
-  color: black;
-  content: "左";
+    font-weight: bold;
+    color: black;
+    content: "左";
 }
 
 .右::before {
-  font-weight: bold;
-  color: black;
-  content: "右";
+    font-weight: bold;
+    color: black;
+    content: "右";
 }
 
 .大::before {
-  font-weight: bold;
-  color: black;
-  content: "大";
+    font-weight: bold;
+    color: black;
+    content: "大";
 }
 
 .小::before {
-  font-weight: bold;
-  color: black;
-  content: "小";
+    font-weight: bold;
+    color: black;
+    content: "小";
 }
 
 .deck .card.open {
@@ -151,56 +151,57 @@ h1 {
 }
 
 /* styling for game_panel*/
-.game_panel, .landing_panel {
-    display:inline-flex;
+.game_panel,
+.landing_panel {
+    display: inline-flex;
     width: 100%;
     justify-content: space-between;
 }
 
 .btn-secondary {
-  background: #76f44b;
-  box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    background: #76f44b;
+    box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 
 #moves_label {
-  border: solid;
-  border-width: 1px;
-  border-radius: 5px;
-  border-color: #6c757d;
-  box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #6c757d;
+    box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 
 #start {
-  margin-bottom: 0;
-  margin-left: 90%;
-  margin-right: 0%;
-  position: relative;
+    margin-bottom: 0;
+    margin-left: 90%;
+    margin-right: 0;
+    position: relative;
 }
 
 #restart {
-  margin-bottom: 0;
-  margin-left: 0%;
-  position:relative;
+    margin-bottom: 0;
+    margin-left: 0;
+    position: relative;
 }
 
 #reset {
-  margin-bottom: 0;
-  margin-right: 0%;
-  position:relative;
+    margin-bottom: 0;
+    margin-right: 0;
+    position: relative;
 }
 
 /*Style for the congratulations modal*/
 
 #congrat {
-  display: block;
+    display: block;
 }
 
 .modal {
 
-    top : 0;
-    right : 0;
-    bottom : 0;
-    left : 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     position: fixed;
     background-color: rgba(0,0,0,0.6);
     display: flex;
@@ -209,8 +210,9 @@ h1 {
 }
 
 .modal-content {
-    max-width: 500px; /*was 360px*/
-    padding : 40px;
+    max-width: 500px;
+    /*was 360px*/
+    padding: 40px;
     margin: 5em auto;
     border-radius: 10px;
     background-color: cyan;
@@ -243,162 +245,167 @@ h1 {
 }
 
 .close_modal_btn {
-  margin-left: 90%;
+    margin-left: 90%;
 }
 
 .modal-footer {
-  align-items: end;
+    align-items: end;
 }
 
 /*media queries */
 /*Extralarge devices (desktops, 1280px and up)*/
 @media (min-width: 1280px) {
-  .container {
-    margin-top: 0rem;
+    .container {
+        margin-top: 0;
     }
 
     .start_screen {
-      width: 1340px;
-      min-height: 640px
-      }
+        width: 1340px;
+        min-height: 640px;
+    }
     h4 {
         font-size: 48px;
-      }
+    }
 
     .start_text {
-        font-size: 30px
-      }
+        font-size: 30px;
+    }
 
     #start {
         height: 42px;
         width: 40px;
-      }
+    }
 
     .deck {
-      width: 1340px;
-      min-height: 640px
-      }
-      .deck .card {
-          height: 180px;
-          width: 120px;
-        }
+        width: 1340px;
+        min-height: 640px;
+    }
+    .deck .card {
+        height: 180px;
+        width: 120px;
+    }
 
-      .deck .card.open, .deck .card.match {
-          font-size: 60px;
-        }
+    .deck .card.match,
+    .deck .card.open {
+        font-size: 60px;
+    }
 
-      .game_panel, .landing_panel {
-            font-size: 28px;
-          }
+    .game_panel,
+    .landing_panel {
+        font-size: 28px;
+    }
 
-      .modal-footer {
+    .modal-footer {
         font-size: 25px;
-        }
+    }
 }
 
 /*media queries */
 
 /*Extralarge devices (desktops, 1200px and up)*/
 @media (max-width: 1279px) and (min-width: 1025px) {
-.container {
-  margin-top: 0rem;
-  }
+    .container {
+        margin-top: 0;
+    }
 
-.start_screen {
-  width: 920px;
-  min-height: 440px
-  }
+    .start_screen {
+        width: 920px;
+        min-height: 440px;
+    }
 
-h4 {
-  font-size: 48px;
-  }
+    h4 {
+        font-size: 48px;
+    }
 
-.start_text {
-  font-size: 30px
-  }
+    .start_text {
+        font-size: 30px;
+    }
 
-#start {
-  height: 42px;
-  width: 40px;
-  }
+    #start {
+        height: 42px;
+        width: 40px;
+    }
 
-.deck {
-  width: 1040px;
-  min-height: 640px
-  }
+    .deck {
+        width: 1040px;
+        min-height: 640px;
+    }
 
-.deck .card {
-  height: 180px;
-  width: 120px;
-  }
+    .deck .card {
+        height: 180px;
+        width: 120px;
+    }
 
-.deck .card.open, .deck .card.match {
-  font-size: 60px;
-  }
+    .deck .card.match,
+    .deck .card.open {
+        font-size: 60px;
+    }
 
-.game_panel, .landing_panel {
-  font-size: 28px;
-  }
+    .game_panel,
+    .landing_panel {
+        font-size: 28px;
+    }
 
-.modal-footer {
-  font-size: 25px;
-  }
+    .modal-footer {
+        font-size: 25px;
+    }
 }
-
 
 /*Medium devices (tablets, 768px and up)*/
 @media (max-width: 1023px) and (min-width: 768px ) {
-.container {
-  margin-top: 0rem;
-  }
+    .container {
+        margin-top: 0;
+    }
 
-.start_screen {
-  width: 740px;
-  min-height: 940px
-  }
+    .start_screen {
+        width: 740px;
+        min-height: 940px;
+    }
 
-h4 {
-  font-size: 48px;
-  }
+    h4 {
+        font-size: 48px;
+    }
 
-.start_text {
-  font-size: 30px
-  }
+    .start_text {
+        font-size: 30px;
+    }
 
-#start {
-  height: 42px;
-  width: 40px;
-  }
+    #start {
+        height: 42px;
+        width: 40px;
+    }
 
-.deck {
-  width: 740px;
-  min-height: 940px
-  }
+    .deck {
+        width: 740px;
+        min-height: 940px;
+    }
 
-.deck .card {
-  height: 180px;
-  width: 120px;
-  }
+    .deck .card {
+        height: 180px;
+        width: 120px;
+    }
 
-.deck .card.open, .deck .card.match {
-  font-size: 60px;
-  }
+    .deck .card.match,
+    .deck .card.open {
+        font-size: 60px;
+    }
 
-.game_panel, .landing_panel {
-  font-size: 28px;
-  }
+    .game_panel,
+    .landing_panel {
+        font-size: 28px;
+    }
 
-.modal-footer {
-  font-size: 25px;
-  }
+    .modal-footer {
+        font-size: 25px;
+    }
 }
 
 /* small devices (less than 540px)*/
 @media (max-width: 540px) {
-.container {
-    margin-top: 1.5rem;
+    .container {
+        margin-top: 1.5rem;
     }
-.header_name {
-    display: none;
+    .header_name {
+        display: none;
     }
 }
