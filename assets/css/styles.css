@@ -348,7 +348,7 @@ h4 {
 }
 
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991px) {
+@media (max-width: 540px) {
 .container {
     margin-top: 1.5rem;
     }
