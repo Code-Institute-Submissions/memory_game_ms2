@@ -1,5 +1,5 @@
 // List of all cards by character
-var Cards = ["百", "千", "万", "上", "中", "下", "左", "右", "大", "小", "百", "千", "万", "上", "中", "下", "左", "右", "大", "小"];
+var cards = ["百", "千", "万", "上", "中", "下", "左", "右", "大", "小", "百", "千", "万", "上", "中", "下", "左", "右", "大", "小"];
 // An empty array where values of open cards are pushed to compare.
 var openCards = [];
 // Variables defined to track number of moves
@@ -21,7 +21,7 @@ function shuffle(array) {
 }
 
 // Define var array to contain result and to shuffle the card array
-var shuffled = shuffle(Cards);
+var shuffled = shuffle(cards);
 
 
 // Statement to show start screen
@@ -31,12 +31,12 @@ $('.container').append('<div class="start_screen"><h4>A pattern matching game to
 // Click event to replace start start_screen with deck + cards
 $("#start, #refresh").click(function() {
     $(".start_screen").replaceWith('<ul class="deck"></ul>');
-    for (var i = 0; i < Cards.length; i++) {
+    for (var i = 0; i < cards.length; i++) {
         $('.deck').prepend('<li class="card"></li>');
     }
     $('.card').prepend('<i></i>');
 
-    for (var i = 0; i < Cards.length; i++) {
+    for (var i = 0; i < cards.length; i++) {
         $('.card').eq(i).find('i').addClass(shuffled[i]);
     }
     $('.deck').append('<div class="game_panel"><button type="submit" class="btn btn-secondary fa fa-arrow-up" id="restart" onClick="refreshPage()"></button><div id="moves_label" > Moves: <span class="moves"> 0 </span> </div><button class="btn btn-secondary fas fa-redo" type="start" id="reset" onClick="refreshGame()"></button></div>')
@@ -78,8 +78,8 @@ function flipMatched() {
 function refreshGame() {
     // Returns card classes to initial state
     flipMatched();
-    shuffled = shuffle(Cards);
-    for (var i = 0; i < Cards.length; i++) {
+    shuffled = shuffle(cards);
+    for (var i = 0; i < cards.length; i++) {
         $('.card').eq(i).find('i').replaceWith('<i></i>');
         $('.card').eq(i).find('i').addClass(shuffled[i]);
     }

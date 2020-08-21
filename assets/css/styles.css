@@ -253,7 +253,7 @@ h1 {
 
 /*media queries */
 /*Extralarge devices (desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .container {
         margin-top: 0rem;
         }
@@ -297,12 +297,12 @@ h1 {
     .modal-footer {
       font-size: 25px;
       }
-
 }
 
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+@media (min-width: 992px ) {
+/*@media (max-width: 1199px){*/
 .container {
     margin-top: 0rem;
     }
