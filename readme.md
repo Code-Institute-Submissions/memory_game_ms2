@@ -188,12 +188,13 @@ OnePlus5 Ecosia Deck            |  iPadMini Safari Deck
 ![OnePlus5 Ecosia Deck"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus5%20Ecosia_matched_unmatched.jpg)  | ![iPadMini Safari Deck ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/ipadmini2%20deck_matched_unmatched.jpg)
 <img src="" alt="" style="max-width:30%;">
 
+![24in Display Simulated](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png)
 
 ### Outstanding issues:
 
- - the size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is small giving a less satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
+ The size of the modal appears to be limited by CSS media rules this means that on some very large devices the modal is relatively small giving a less satisfying appearance - I am still looking for a workaround to increase the size on the largest displays, however this is not a problem that will affect most anticipated (mobile device) users.
 
-![24in Display Simulated](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png)
+![24in Display Simulated with Modal](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/24in%20display%20simulated%20with%20modal.png)
 
 ## Validation
   - use of CSS3 in styles.css was validated using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) which identified two minor extraneous punctuation marks, these were removed. Retesting gave a clear result.
