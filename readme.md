@@ -7,7 +7,7 @@ This is a responsive mobile-first pattern matching game to assist beginner stude
 
 ## Wireframes
 
-The project wireframes were produced using [figma](https://www.figma.com/) and are provided here:
+The project wireframes were produced using [figma](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png) and are provided here:
 Galaxy s9 Deck            |  MacBook Deck      
 :------------------------------:|:-----------------------------------------------------:
 ![Pictomatch mobile wireframe screen"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20wireframe%20mobile%20phone.png)  | ![Macbook](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Chinese%20character%20memory%20game%20macbook.png)
@@ -23,9 +23,9 @@ An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-d
 
 A decision was made early on to provide a game title as a header only on larger devices so as not to lose screen area on mobile devices. The initial concept envisaged a single screen game with a modal launched on completion but discussion with mentor Ignatius Ukwuoma led to the realisation that an introductory start screen was also necessary.
 
-Galaxy S9 Deck            |  MacBook Deck with modal     
+Galaxy S9 Deck            |  MacBook Air Deck in play     
 :------------------------------:|:------------------------------------------------:
-![Pictomatch mobile wireframe screen](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png)  | ![Macbook with modal ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/MacBook%20modal.png)
+![Pictomatch mobile wireframe screen](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png)  | ![Macbook Air Game ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/game%20macbook_air.png)
 
 ## UX
 Game users want a fun way to learn to recognise Chinese pictogram characters.  As game is intended to be fun this is reflected by use of a vibrant colour theme and an element of humour in the modal image.
@@ -295,6 +295,6 @@ To provide a more challenging and valuable learning resource I would propose the
 
 ## On Reflection
 
-
+The inclusion of HTML script directly in JavaScript gave a satisfying result in this project, however the resulting HTML insertions proved hard to format and to work with (several attempts to introduce line breaks failed and broke the code), for larger HTML inclusions it might be preferable to write separate HTML files and link to load them appropriately.
 
 **This is for educational use.**
