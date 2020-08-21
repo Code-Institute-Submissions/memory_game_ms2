@@ -177,7 +177,7 @@ As a result of these tests:
 
 
 
-- A console error was noted on Chrome relating to font-awesome fab icons, this class of organisation related icons were not used in the code but in discussion my mentor suggested that their absence could be causing the error. I therefore have included one suitable icon as an icon to accompany the game title - this does add an attractive look to the title but is a pragmatic approach that could raise rights issues for a commercial game/site. Inclusion of this icon appears to have resolved the error.
+- A console error was noted relating to font-awesome fab icons, this class of organisation related icons were not used in the code but in discussion my mentor suggested that their absence could be causing the error. I therefore have included one suitable icon as an icon to accompany the game title - this does add an attractive look to the title but is a pragmatic approach that could raise rights issues for a commercial game/site. Inclusion of this icon appears to have resolved the error.
 
 
 + [Title including fa fab-icon resolves console error, Asus laptop, Firefox](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Asus_laptop_firefox_console.png)
@@ -186,6 +186,7 @@ As a result of these tests:
 ### Peer Review
 
 As yet I have no peer review feedback.
+
 
 OnePlus5 Ecosia Deck            |  iPadMini Safari Deck     
 :-----------------:|:-----------------------------------------------------:
