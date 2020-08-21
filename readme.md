@@ -114,15 +114,17 @@ At the final mentor meeting the following were suggested
 
 ### Test protocols
 
-Jasmine test:
+####Jasmine test:
   The Fisher-Yates (aka Knuth) Shuffle function was tested using Jasmine to ensure that an array of expected length was returned as well as additional tests to confirm;
   - that an expected character was returned
   - that an inappropriate character was not returned
   - using a spy to ensure the shuffle function was called
-  All tests were passed.
+
+  All these tests were passed.
+
   I am grateful to my mentor for suggesting I do this test to refresh my knowledge of Jasmine. It also refreshed my knowledge that, having used jQuery in my code, a link to jQuery was necessary in the test HTML file.
 
-User test  
+####User test  
   Start_screen:
   1.  On landing verify start_screen container is visible
   2.  Verify text is visible
