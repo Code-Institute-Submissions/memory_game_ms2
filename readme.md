@@ -301,4 +301,5 @@ To provide a more challenging and valuable learning resource I would propose the
 
 The inclusion of HTML script directly in JavaScript gave a satisfying result in this project, however the resulting HTML insertions proved hard to format and to work with (several attempts to introduce line breaks failed and broke the code), for larger HTML inclusions it might be preferable to write separate HTML files and link to load them appropriately.
 
+### Disclaimer
 **This is for educational use.**
