@@ -140,7 +140,7 @@ User test
   2.  Hover over 'close' btn' and verify response
   3.  Click on 'close' btn' and verify modal closes returning to game deck.
 
-A shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up some testing processes. This is included and can be accessed by using [quick_index](https://github.com/SingeRoi/memory_game_ms2/blob/master/quick_index.html) and it's cognate [quick_game](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/scripts/quick_game.js) script.
+For testing purposes a shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed up the process. To avoid any potential confusion for users these files have now been removed.
 
 
 ### Test Findings
@@ -160,7 +160,13 @@ As a result of these tests:
 
 - Further iterative testing using these sites revealed other styling issues resolved by small edits or introduction of media queries to produce a better UX through responsive design especially to produce a more satisfying landscape display on larger devices.
 
-- on one larger device (Asus R541U laptop) the Chinese characters used in the game do not display as attractively in Chrome as they do on Firefox - this is not seen on other devices.
+- On one larger device (Asus R541U laptop) the Chinese characters used in the game do not display as attractively in Chrome as they do on Firefox - this is not seen on other devices - one possibility raised in discussion with my mentor was that this could reflect an old version of Chrome on that machine.
+
+
+
+- A console error was noted on Chrome relating to font-awesome fab icons, this class of organisation related icons were not used in the code but in discussion my mentor suggested that their absence could be causing the error. I therefore have included one suitable icon as an icon to accompany the game title - this does add an attractive look to the title but is a pragmatic approach that could raise rights issues for a commercial game/site. Inclusion of this icon appears to have resolved the error.
+
+![Title including fa fab-icon resolves console error, Asus laptop, Firefox](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Asus_laptop_firefox_console.png)
 
 ### Peer Review
 
@@ -180,9 +186,9 @@ OnePlus5 Ecosia Deck            |  iPadMini Safari Deck
 
 ## Validation
   - use of CSS3 in styles.css was validated using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) which identified two minor extraneous punctuation marks, these were removed. Retesting gave a clear result.
-  
+
 ## Deployment
-This site is hosted using [GitHub pages](https://singeroi.github.io/memory_game_ms2/), deployed directly from the master branch.
+This site is hosted using [GitHub pages https://singeroi.github.io/memory_game_ms2/](https://singeroi.github.io/memory_game_ms2/), deployed directly from the master branch.
 Deployment followed the steps outlined by [Github configuring a publishing source](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - To configure the publishing source, I confirmed the branch and files to use as publishing source existed in the repository
 
