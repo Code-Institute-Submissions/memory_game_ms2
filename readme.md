@@ -158,6 +158,11 @@ At the final mentor meeting the following were suggested
 
 For testing purposes a shortened game form in which the congratulations modal launches on matching a pair of cards was used to speed the test process. To avoid any potential confusion for users these files have now been removed.
 
+OnePlus5 Ecosia Deck            |  iPadMini Safari Deck     
+:-----------------:|:-----------------------------------------------------:
+![OnePlus5 Ecosia Deck"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus5%20Ecosia_matched_unmatched.jpg)  | ![iPadMini Safari Deck ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/ipadmini2%20deck_matched_unmatched.jpg)
+<img src="" alt="" style="max-width:30%;">
+
 
 ### Test Findings
 
@@ -190,11 +195,6 @@ As a result of these tests:
 
 As yet I have no peer review feedback.
 
-
-OnePlus5 Ecosia Deck            |  iPadMini Safari Deck     
-:-----------------:|:-----------------------------------------------------:
-![OnePlus5 Ecosia Deck"](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/OnePlus5%20Ecosia_matched_unmatched.jpg)  | ![iPadMini Safari Deck ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/ipadmini2%20deck_matched_unmatched.jpg)
-<img src="" alt="" style="max-width:30%;">
 
 + [24in Display Simulated](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png)
 ![24in Display Simulated](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/simulated%2024in%20display.png)
