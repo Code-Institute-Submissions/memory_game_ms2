@@ -23,7 +23,7 @@ An initial concept was to use a [neumorphic](https://uxplanet.org/top-3-visual-d
 
 A decision was made early on to provide a game title as a header only on larger devices so as not to lose screen area on mobile devices. The initial concept envisaged a single screen game with a modal launched on completion but discussion with mentor Ignatius Ukwuoma led to the realisation that an introductory start screen was also necessary.
 
-Galaxy S9 Deck            |  MacBook Air Deck in play     
+Galaxy S9 Deck            |  MacBook Air Game in Play     
 :------------------------------:|:------------------------------------------------:
 ![Pictomatch mobile wireframe screen](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/Galaxy_s9.png)  | ![Macbook Air Game ](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/game%20macbook_air.png)
 
@@ -74,7 +74,7 @@ OnePlus7 start screen      |       OnePlus7 play       |      OnePlus7 modal
 * Game should know how to handle matched and unmatched cards
 * Game should return unmatched card pairs to hidden state
 * Game should display the current number of moves a user has made    
-* A restart button should allow the player reset the game board.
+* A restart button should allow the player to reset the game board.
 * A start screen should introduce the game purpose and instructions for play
 * Buttons should allow navigation between screens
 * A congratulations modal should appear when the player matches all cards. The modal can be closed.
@@ -101,8 +101,12 @@ At the mid-project mentor meeting a number of problems were identified and I'm g
 - poor placement of script 'src' in header instead of bottom of HTML body - script link updated and moved
 - possible confusion between restart and back-navigation button due to icon used (chevron-left) -  icon replaced by up-arrow
 - poor visual experience when viewing game on a large desktop monitor - set up media queries to make better use of large and extra large screen sizes and to make full use of landscape display.
+
+At the final mentor meeting the following were suggested
+
 - improvements to my Jasmine test protocol
 - introducing a fa Fab-icon to overcome an fab console error
+- various minor edits to improve code presentation and clarity
 
 + [iPadPro simulated game landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
 <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro game deck" style="max-width:30%;">
