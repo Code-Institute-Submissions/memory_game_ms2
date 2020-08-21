@@ -83,7 +83,7 @@ OnePlus7 start screen      |       OnePlus7 play       |      OnePlus7 modal
 All of the above features are present in this game.
 
 
-+ [iPadPro  simulated start_screen landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_start.png)
++ [iPadPro  simulated start_screen, landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_start.png)
 
 <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_start.png" alt="iPadPro start_screen landscape" style="max-width:60%;">
 
@@ -108,7 +108,7 @@ At the final mentor meeting the following were suggested
 - introducing a fa Fab-icon to overcome an fab console error
 - various minor edits to improve code presentation and clarity
 
-+ [iPadPro simulated game landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
++ [iPadPro simulated game, landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png)
 <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_lndscp.png" alt="iPadPro game deck" style="max-width:30%;">
 
 
@@ -123,6 +123,9 @@ At the final mentor meeting the following were suggested
   All these tests were passed.
 
   I am grateful to my mentor for suggesting I do this test to refresh my knowledge of Jasmine. It also refreshed my knowledge that, having used jQuery in my code, a link to jQuery was necessary in the test HTML file.
+
+  + [iPadPro simulated game with modal, landscape](https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png)
+  <img src="https://github.com/SingeRoi/memory_game_ms2/blob/master/assets/images/iPadPro_congrats.png" alt="iPadPro with modal" style="max-width:30%;">
 
 #### User test  
   Start_screen:
